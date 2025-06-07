@@ -20,8 +20,9 @@ netlify_gpx = netlify_dir / "gpx" / "simplified_trails.geojson"
 # 1. Scalanie GPX → GeoJSON
 subprocess.run(["python", "gpx01_merge_gpx_to_geojson.py"], check=True)
 
-# 2. Upraszczanie GeoJSON
+# 2. Upraszczanie i kolorowanie GeoJSON
 subprocess.run(["python", "gpx02_simplify_geojson.py"], check=True)
+subprocess.run(["python", "gpx03_assign_colors.py"], check=True)
 
 # 3. Generowanie EXPEDITIONS.html
 subprocess.run(["python", "html01_generate_expeditions.py"], check=True)
