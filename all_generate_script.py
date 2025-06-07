@@ -39,7 +39,7 @@ timestamp = datetime.now().strftime("%Y-%m-%d-%H%M")
 
 # 5. Kopiowanie do Netlify (GeoJSON)
 colored_geojson = output_dir / "colored.geojson"
-shutil.copy2(colored.geojson, netlify_gpx)
+shutil.copy2(colored_geojson, netlify_gpx)
 print(f"✅ GPX 03 COLORING - Copy GeoJSON to: {netlify_gpx}")
 
 # 6. Stopka z wersją
