@@ -38,9 +38,9 @@ timestamp = datetime.now().strftime("%Y-%m-%d-%H%M")
 # print(f"✅ Skopiowano HTML do Netlify: {netlify_maps}")
 
 # 5. Kopiowanie do Netlify (GeoJSON)
-simplified_geojson = output_dir / "simplified_trails.geojson"
-shutil.copy2(simplified_geojson, netlify_gpx)
-print(f"✅ GPX 02 SIMPLIFYING - Copy GeoJSON to: {netlify_gpx}")
+colored_geojson = output_dir / "colored.geojson"
+shutil.copy2(colored.geojson, netlify_gpx)
+print(f"✅ GPX 03 COLORING - Copy GeoJSON to: {netlify_gpx}")
 
 # 6. Stopka z wersją
 index_path = r'C:\github\aktmamut.eu\index.html'
