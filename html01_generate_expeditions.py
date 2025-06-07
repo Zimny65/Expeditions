@@ -190,38 +190,21 @@ def inject_custom_body_script(html_path):
     custom_script = f"""<script>
         let allGpxLayer = null;
 
-        // 🎨 Paleta czerwonych odcieni
-        const colorPalette = [
-            '#DC143C', '#B22222', '#CD5C5C', '#FF6347',
-            '#8B0000', '#F08080', '#BC8F8F', '#DB7093'
-        ];
-
-        // 🔢 Funkcja przypisująca kolor na podstawie nazwy
-        function getColorByName(name) {{
-            let hash = 0;
-            for (let i = 0; i < name.length; i++) {{
-                hash = name.charCodeAt(i) + ((hash << 5) - hash);
-            }}
-            const index = Math.abs(hash) % colorPalette.length;
-            return colorPalette[index];
-        }}
-
         window.addEventListener("DOMContentLoaded", function () {{
             function toggleAllGpxLayer() {{
                 const map = {map_var_name};
                 const zoom = map.getZoom();
 
                 if (zoom >= 10 && !allGpxLayer) {{
-                    fetch('../gpx/simplified_trails.geojson')
+                    fetch('../gpx/simplified_trails_colored.geojson')
                         .then(res => res.json())
                         .then(data => {{
                             const groupLayers = [];
 
                             L.geoJSON(data, {{
                                 style: function(feature) {{
-                                    const name = feature.properties && feature.properties.name ? feature.properties.name : '';
                                     return {{
-                                        color: getColorByName(name),
+                                        color: feature.properties.color || 'gray',
                                         weight: 2,
                                         opacity: 0.7
                                     }};
@@ -230,19 +213,21 @@ def inject_custom_body_script(html_path):
                                     if (feature.geometry.type === "LineString") {{
                                         const coords = feature.geometry.coordinates;
 
-                                        // Tooltip z nazwą trasy
+                                        // Tooltip z nazwą
                                         if (feature.properties && feature.properties.name) {{
                                             layer.bindTooltip(feature.properties.name, {{ sticky: true }});
                                         }}
 
-                                        // Podświetlanie po najechaniu
+                                        // Hover – podświetlenie na różowo
                                         layer.on({{
                                             mouseover: function () {{
                                                 layer.setStyle({{ weight: 5, color: '#ff69b4' }});
                                             }},
                                             mouseout: function () {{
-                                                const originalColor = getColorByName(feature.properties.name || '');
-                                                layer.setStyle({{ weight: 2, color: originalColor }});
+                                                layer.setStyle({{
+                                                    weight: 2,
+                                                    color: feature.properties.color || 'gray'
+                                                }});
                                             }}
                                         }});
 
