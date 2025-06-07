@@ -7,6 +7,7 @@ from folium.plugins import Fullscreen, MiniMap
 from datetime import datetime
 import shutil
 import re
+from dotenv import load_dotenv
 
 # Funkcja do pobierania danych z arkusza Google Sheets
 def fetch_data_from_sheet(sheet_id, sheet_name, api_key):
@@ -135,7 +136,9 @@ if __name__ == "__main__":
     # Ustawienia do pobrania danych z Google Sheets
     sheet_id = '1z3ceJOc6PpKWGqIxMi6P4Ij1i37rcXIx3P_VIWrGpN0'
     sheet_name = 'ALL'  # Nazwa arkusza, który zawiera wszystkie dane
-    api_key = 'AIzaSyDtf7Svkxg-3DpCnpMw3YFPyJDx8dedWIw'  # Użyj tego samego klucza API
+    # api_key = 'AIzaSyDtf7Svkxg-3DpCnpMw3YFPyJDx8dedWIw'  # Użyj tego samego klucza API
+    load_dotenv()
+    api_key = os.getenv("GOOGLE_API_KEY")
 
     # Pobierz dane z arkusza Google Sheets
     df = fetch_data_from_sheet(sheet_id, sheet_name, api_key)
