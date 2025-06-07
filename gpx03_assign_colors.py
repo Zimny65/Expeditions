@@ -10,16 +10,10 @@ DISTANCE_THRESHOLD_METERS = 50  # odległość, poniżej której trasy uznajemy 
 
 # 🌈 Lista 10 kolorów (kontrastowych)
 COLOR_PALETTE = [
-    "#1f77b4",  # niebieski
-    "#ff7f0e",  # pomarańczowy
-    "#2ca02c",  # zielony
-    "#d62728",  # czerwony
-    "#9467bd",  # fioletowy
-    "#8c564b",  # brązowy
-    "#e377c2",  # różowy
-    "#7f7f7f",  # szary
-    "#bcbd22",  # oliwkowy
-    "#17becf"   # turkusowy
+    "#FF0000",  # Red
+    "#8B0000",  # DarkRed
+    "#FF4500",  # OrangeRed
+    "#800080"   # Purple
 ]
 
 print("✅ Wczytywanie danych...")
