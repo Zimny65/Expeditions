@@ -179,7 +179,7 @@ def inject_custom_body_script(html_path):
     with open(html_path, 'r', encoding='utf-8') as f:
         html = f.read()
 
-    # Szukaj nazwy zmiennej mapy, np. map_6891fda65dc645f64165eab04f5da6b3
+    # Szukaj zmiennej mapy (np. map_abcdef...)
     match = re.search(r'var (map_[a-f0-9]+) = L\.map\(', html)
     if not match:
         print("❌ Nie znaleziono zmiennej mapy w HTML.")
@@ -208,6 +208,23 @@ def inject_custom_body_script(html_path):
                                 onEachFeature: function (feature, layer) {{
                                     if (feature.geometry.type === "LineString") {{
                                         const coords = feature.geometry.coordinates;
+
+                                        // Tooltip z nazwą trasy
+                                        if (feature.properties && feature.properties.name) {{
+                                            layer.bindTooltip(feature.properties.name, {{ sticky: true }});
+                                        }}
+
+                                        // Podświetlenie przy hoverze
+                                        layer.on({{
+                                            mouseover: function () {{
+                                                layer.setStyle({{ weight: 5, color: '#ff69b4' }});
+                                            }},
+                                            mouseout: function () {{
+                                                layer.setStyle({{ weight: 2, color: 'red' }});
+                                            }}
+                                        }});
+
+                                        // Początek i koniec
                                         const startMarker = L.circleMarker([coords[0][1], coords[0][0]], {{
                                             radius: 3,
                                             color: "green",
@@ -219,16 +236,6 @@ def inject_custom_body_script(html_path):
                                             color: "blue",
                                             fillColor: "blue",
                                             fillOpacity: 1
-                                        }});
-
-                                        // 🔶 Podświetlanie po najechaniu
-                                        layer.on({{
-                                            mouseover: function () {{
-                                                layer.setStyle({{ weight: 5, color: '#ff0080' }});
-                                            }},
-                                            mouseout: function () {{
-                                                layer.setStyle({{ weight: 2, color: 'red' }});
-                                            }}
                                         }});
 
                                         const group = L.layerGroup([layer, startMarker, endMarker]);
@@ -257,7 +264,6 @@ def inject_custom_body_script(html_path):
 
     with open(html_path, 'w', encoding='utf-8') as f:
         f.write(html)
-
 
 # Generowanie mapy
 generate_map(df, output_directory, f"{EXPEDITION_NAME}.html")
