@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt  # tylko do debugowania, niekonieczne
 import os
 
 # ⚖️ Parametry
-INPUT_PATH = "C:/github/Expeditions/gpx/simplified_trails.geojson"
-OUTPUT_PATH = "C:/github/Expeditions/gpx/simplified_trails_colored.geojson"
+INPUT_PATH = "C:/github/Expeditions/output/simplified.geojson"
+OUTPUT_PATH = "C:/github/Expeditions/output/colored.geojson"
 DISTANCE_THRESHOLD_METERS = 50  # odległość, poniżej której trasy uznajemy za sąsiadujące
 
 # 🌈 Lista 10 kolorów (kontrastowych)
