@@ -179,7 +179,7 @@ def inject_custom_body_script(html_path):
     with open(html_path, 'r', encoding='utf-8') as f:
         html = f.read()
 
-    # Szukaj zmiennej mapy (np. map_abcdef...)
+    # Znajdź nazwę zmiennej mapy
     match = re.search(r'var (map_[a-f0-9]+) = L\.map\(', html)
     if not match:
         print("❌ Nie znaleziono zmiennej mapy w HTML.")
@@ -189,6 +189,23 @@ def inject_custom_body_script(html_path):
 
     custom_script = f"""<script>
         let allGpxLayer = null;
+
+        // 🎨 Paleta czerwonych odcieni
+        const colorPalette = [
+            '#DC143C', '#B22222', '#CD5C5C', '#FF6347',
+            '#8B0000', '#F08080', '#BC8F8F', '#DB7093'
+        ];
+
+        // 🔢 Funkcja przypisująca kolor na podstawie nazwy
+        function getColorByName(name) {{
+            let hash = 0;
+            for (let i = 0; i < name.length; i++) {{
+                hash = name.charCodeAt(i) + ((hash << 5) - hash);
+            }}
+            const index = Math.abs(hash) % colorPalette.length;
+            return colorPalette[index];
+        }}
+
         window.addEventListener("DOMContentLoaded", function () {{
             function toggleAllGpxLayer() {{
                 const map = {map_var_name};
@@ -199,11 +216,15 @@ def inject_custom_body_script(html_path):
                         .then(res => res.json())
                         .then(data => {{
                             const groupLayers = [];
+
                             L.geoJSON(data, {{
-                                style: {{
-                                    color: 'red',
-                                    weight: 2,
-                                    opacity: 0.7
+                                style: function(feature) {{
+                                    const name = feature.properties && feature.properties.name ? feature.properties.name : '';
+                                    return {{
+                                        color: getColorByName(name),
+                                        weight: 2,
+                                        opacity: 0.7
+                                    }};
                                 }},
                                 onEachFeature: function (feature, layer) {{
                                     if (feature.geometry.type === "LineString") {{
@@ -214,17 +235,18 @@ def inject_custom_body_script(html_path):
                                             layer.bindTooltip(feature.properties.name, {{ sticky: true }});
                                         }}
 
-                                        // Podświetlenie przy hoverze
+                                        // Podświetlanie po najechaniu
                                         layer.on({{
                                             mouseover: function () {{
                                                 layer.setStyle({{ weight: 5, color: '#ff69b4' }});
                                             }},
                                             mouseout: function () {{
-                                                layer.setStyle({{ weight: 2, color: 'red' }});
+                                                const originalColor = getColorByName(feature.properties.name || '');
+                                                layer.setStyle({{ weight: 2, color: originalColor }});
                                             }}
                                         }});
 
-                                        // Początek i koniec
+                                        // Start i koniec trasy
                                         const startMarker = L.circleMarker([coords[0][1], coords[0][0]], {{
                                             radius: 3,
                                             color: "green",
@@ -243,6 +265,7 @@ def inject_custom_body_script(html_path):
                                     }}
                                 }}
                             }});
+
                             allGpxLayer = L.layerGroup(groupLayers);
                             allGpxLayer.addTo(map);
                         }});
