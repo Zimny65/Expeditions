@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "2206",
+    "nr": "2206",
     "date": "2022-05-12",
     "name": "Radzim",
     "mountains": "Revúcka vrchovina",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2022-05-12-08-13-radzim-102537362",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2022-05-12-08-13-radzim-102537362",
     "photo_album_url": "https://photos.app.goo.gl/mzNnrV6Gbbkbd3Qe8",
     "photo_stamp_url": "",
     "distance_km": 17.92,
     "ascent_m": 880,
     "duration_h": 6.77,
-    "got_points": 26.72,
+    "got": "26.72",
     "got_total": 160.5,
     "accomodation": "Betliar The Tasty Rooms",
     "trail_counter": "304",
     "exp_counter": "079",
     "lat": 48.7773,
     "lon": 20.339,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

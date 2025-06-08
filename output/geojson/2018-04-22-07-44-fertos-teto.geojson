@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1812",
+    "nr": "1812",
     "date": "2018-04-22",
     "name": "Fertos Teto",
     "mountains": "Aggteleki Karszt",
     "country": "HU",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-04-22-07-44-fertos-teto-24238095",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-04-22-07-44-fertos-teto-24238095",
     "photo_album_url": "https://photos.app.goo.gl/tBIashfDJVnW4iJz2",
     "photo_stamp_url": "https://drive.google.com/open?id=19xudhr6P7O2NZyfJI8-jx0zNKGkyjDS7",
     "distance_km": 16.49,
     "ascent_m": 429,
     "duration_h": 5.52,
-    "got_points": 20.78,
+    "got": "20.78",
     "got_total": 176.02,
     "accomodation": "Dlhá Ves Apartments Sárika",
     "trail_counter": "146",
     "exp_counter": "037",
     "lat": 48.5119,
     "lon": 20.5645,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

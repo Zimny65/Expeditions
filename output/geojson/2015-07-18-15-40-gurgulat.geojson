@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1508",
+    "nr": "1508",
     "date": "2015-07-18",
     "name": "Gurgulat",
     "mountains": "Gorgany Zachodnie",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-18-15-40-gurgulat-17798626",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-18-15-40-gurgulat-17798626",
     "photo_album_url": "https://photos.app.goo.gl/p6NG522Z39gMNRYA3",
     "photo_stamp_url": "https://drive.google.com/open?id=1zfT11f6FsdKlZauVFM_5SNZQ1qdGDZaq",
     "distance_km": 11.53,
     "ascent_m": 779,
     "duration_h": 4.45,
-    "got_points": 19.32,
+    "got": "19.32",
     "got_total": 203.72,
     "accomodation": "Ludwikówka Medved",
     "trail_counter": "008",
     "exp_counter": "003",
     "lat": 48.7685,
     "lon": 23.7305,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

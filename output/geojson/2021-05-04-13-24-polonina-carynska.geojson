@@ -1,7 +1,14 @@
 {
   "type": "Feature",
   "properties": {
+    "nr": "2107",
+    "date": "2021-05-04",
     "name": "Połonina Caryńska",
+    "mountains": "Bieszczady",
+    "country": "PL",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-05-04-13-24-polonina-carynska-72209082",
+    "photo_album_url": "https://photos.app.goo.gl/5V7CgEetsTDYm4UK9",
+    "photo_stamp_url": "",
     "distance_km": 25.17,
     "ascent_m": 802,
     "duration_h": 7.17,
@@ -14,13 +21,6 @@
     "lon": 22.6029,
     "only_mountain": "1",
     "participants": "AM, BM",
-    "wikiloc_url": "https://photos.app.goo.gl/5V7CgEetsTDYm4UK9",
-    "photo_album_url": "",
-    "photo_stamp_url": "25.17",
-    "country": "PL",
-    "mountains": "Bieszczady",
-    "date": "2021-05-04",
-    "trail_gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-05-04-13-24-polonina-carynska-72209082",
     "mapycz_gpx_url": ""
   },
   "geometry": {

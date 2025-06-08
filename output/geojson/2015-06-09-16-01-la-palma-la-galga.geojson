@@ -1,7 +1,14 @@
 {
   "type": "Feature",
   "properties": {
+    "nr": "1507",
+    "date": "2015-06-09",
     "name": "La Galga",
+    "mountains": "La Palma",
+    "country": "ES",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-06-09-16-01-la-palma-la-galga-17798624",
+    "photo_album_url": "https://photos.app.goo.gl/96Q8xkyD0Cozg4CL2",
+    "photo_stamp_url": "https://drive.google.com/open?id=1YeZxZjaUaFmm0tOZItllQRpX4wCqiDV6",
     "distance_km": 8.55,
     "ascent_m": 932,
     "duration_h": 2.93,
@@ -14,13 +21,6 @@
     "lon": -17.778,
     "only_mountain": "1",
     "participants": "AM, BM, KM, DS, MS, BS, JS, AB, LM",
-    "wikiloc_url": "https://photos.app.goo.gl/96Q8xkyD0Cozg4CL2",
-    "photo_album_url": "https://drive.google.com/open?id=1YeZxZjaUaFmm0tOZItllQRpX4wCqiDV6",
-    "photo_stamp_url": "8.55",
-    "country": "ES",
-    "mountains": "La Palma",
-    "date": "2015-06-09",
-    "trail_gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-06-09-16-01-la-palma-la-galga-17798624",
     "mapycz_gpx_url": ""
   },
   "geometry": {

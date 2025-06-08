@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1524",
+    "nr": "1524",
     "date": "2015-09-17",
     "name": "Ziarska Dolina",
     "mountains": "Zapadne Tatry",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-09-17-10-33-ziarska-dolina-17798659",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-09-17-10-33-ziarska-dolina-17798659",
     "photo_album_url": "https://photos.app.goo.gl/ic7Z6lbQZJdXhif02",
     "photo_stamp_url": "https://drive.google.com/open?id=1PQrsO7b2SEQLvyp6HQec0T9Nd_6wsSRE",
     "distance_km": 16.92,
     "ascent_m": 1394,
     "duration_h": 8.63,
-    "got_points": 30.86,
+    "got": "30.86",
     "got_total": 712.57,
     "accomodation": "Przybylina Penzion Sileo",
     "trail_counter": "024",
     "exp_counter": "005",
     "lat": 49.1737,
     "lon": 19.7414,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

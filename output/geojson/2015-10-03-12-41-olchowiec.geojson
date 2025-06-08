@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1527",
+    "nr": "1527",
     "date": "2015-10-03",
     "name": "Olchowiec",
     "mountains": "Beskid Niski",
     "country": "PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-10-03-12-41-olchowiec-17798665",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-10-03-12-41-olchowiec-17798665",
     "photo_album_url": "https://photos.app.goo.gl/FIGeFlqfurr3up232",
     "photo_stamp_url": "https://drive.google.com/open?id=1R5gY8tUpMjvq3LEPq8I6AmaF7nCPqe8y",
     "distance_km": 8.75,
     "ascent_m": 296,
     "duration_h": 4.1,
-    "got_points": 11.71,
+    "got": "11.71",
     "got_total": 787.07,
     "accomodation": "Ropianka Chatka AKT Maluch",
     "trail_counter": "027",
     "exp_counter": "006",
     "lat": 49.4725,
     "lon": 21.6034,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM, ML, BS, AG, MG, ŁG, MM, SM, MP, SP",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

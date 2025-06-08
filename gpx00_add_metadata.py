@@ -6,10 +6,15 @@ import re
 from datetime import timedelta
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+from dotenv import load_dotenv
 
-# Konfiguracja
-GOOGLE_SHEET_NAME = "AKT Mamut Expeditions"
-SHEET_TAB_NAME = "ALL"
+# Wczytaj zmienne środowiskowe z pliku .env
+load_dotenv()
+
+GOOGLE_SHEET_NAME = os.getenv("GOOGLE_SHEET_NAME", "AKT Mamut Expeditions")
+SHEET_TAB_NAME = os.getenv("SHEET_TAB_NAME", "ALL")
+CREDENTIALS_FILE = os.getenv("GOOGLE_CREDENTIALS_FILE", "credentials.json")
+
 GPX_DIR = "gpx"
 OUTPUT_DIR = "output/geojson"
 
@@ -18,7 +23,7 @@ scope = [
     "https://spreadsheets.google.com/feeds",
     "https://www.googleapis.com/auth/drive"
 ]
-creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name(CREDENTIALS_FILE, scope)
 client = gspread.authorize(creds)
 sheet = client.open(GOOGLE_SHEET_NAME).worksheet(SHEET_TAB_NAME)
 data = sheet.get_all_values()
@@ -49,13 +54,17 @@ def generate_geojson(gpx_filename: str, row: list):
     coords = [[point.longitude, point.latitude, point.elevation] for point in segment.points]
 
     properties = {
+        "nr": row[0],
+        "date": row[1],
         "name": row[2],
+        "mountains": row[3],
+        "country": row[4],
+        "gpx_url": row[5],
+        "photo_album_url": row[6],
+        "photo_stamp_url": row[7],
         "distance_km": float(row[8].replace(",", ".")) if row[8] else None,
         "ascent_m": int(row[9]) if row[9] else None,
-        "duration_h": round(
-            float(row[10].split(":")[0]) + float(row[10].split(":")[1]) / 60,
-            2
-        ) if row[10] and ":" in row[10] else None,
+        "duration_h": round(float(row[10].split(":")[0]) + float(row[10].split(":")[1]) / 60,2) if row[10] and ":" in row[10] else None,
         "got": row[11],
         "got_total": float(row[12].replace(",", ".")) if row[12] else None,
         "accomodation": row[13],
@@ -65,13 +74,6 @@ def generate_geojson(gpx_filename: str, row: list):
         "lon": float(row[17].replace(",", ".")) if row[17] else None,
         "only_mountain": row[18],
         "participants": row[19],
-        "wikiloc_url": row[6],
-        "photo_album_url": row[7],
-        "photo_stamp_url": row[8],
-        "country": row[4],
-        "mountains": row[3],
-        "date": row[1],
-        "trail_gpx_url": row[5],
         "mapycz_gpx_url": row[20] if len(row) > 20 else ""
     }
 

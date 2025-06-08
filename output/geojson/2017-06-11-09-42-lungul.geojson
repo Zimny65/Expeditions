@@ -1,7 +1,14 @@
 {
   "type": "Feature",
   "properties": {
+    "nr": "1718",
+    "date": "2017-06-11",
     "name": "Łungul",
+    "mountains": "Góry Bukowińskie",
+    "country": "UA",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-06-11-09-42-lungul-18182496",
+    "photo_album_url": "https://photos.app.goo.gl/6dEG4Ib7OJZd0XRK2",
+    "photo_stamp_url": "https://drive.google.com/open?id=156aWG05fr-pON_ZpsdqKJvUKkp6XjZjB",
     "distance_km": 13.35,
     "ascent_m": 412,
     "duration_h": 3.83,
@@ -14,13 +21,6 @@
     "lon": 25.3074,
     "only_mountain": "1",
     "participants": "AM, BM",
-    "wikiloc_url": "https://photos.app.goo.gl/6dEG4Ib7OJZd0XRK2",
-    "photo_album_url": "https://drive.google.com/open?id=156aWG05fr-pON_ZpsdqKJvUKkp6XjZjB",
-    "photo_stamp_url": "13.35",
-    "country": "UA",
-    "mountains": "Góry Bukowińskie",
-    "date": "2017-06-11",
-    "trail_gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-06-11-09-42-lungul-18182496",
     "mapycz_gpx_url": ""
   },
   "geometry": {

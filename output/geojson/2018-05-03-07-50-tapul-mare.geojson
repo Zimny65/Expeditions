@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1819",
+    "nr": "1819",
     "date": "2018-05-03",
     "name": "Tapul Mare",
     "mountains": "Muntii Tibau",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-03-07-50-tapul-mare-24555568",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-03-07-50-tapul-mare-24555568",
     "photo_album_url": "https://photos.app.goo.gl/zOI6t9M25CcRPDNl2",
     "photo_stamp_url": "https://drive.google.com/open?id=13QaRCxdIfa4QTFWvOmuHlvaU-7MFvER2",
     "distance_km": 9.58,
     "ascent_m": 685,
     "duration_h": 5.7,
-    "got_points": 16.43,
+    "got": "16.43",
     "got_total": 305.07,
     "accomodation": "Fundu Moldovei Casa Cristina",
     "trail_counter": "153",
     "exp_counter": "038",
     "lat": 47.6379,
     "lon": 25.0819,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

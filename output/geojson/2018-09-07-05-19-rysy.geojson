@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1841",
+    "nr": "1841",
     "date": "2018-09-07",
     "name": "Rysy",
     "mountains": "Tatry Wysokie",
     "country": "SK, PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-09-07-05-19-rysy-28407063",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-09-07-05-19-rysy-28407063",
     "photo_album_url": "https://photos.app.goo.gl/NkuaaqbTZPzwyKaf6",
     "photo_stamp_url": "https://drive.google.com/open?id=1jqLqN1Ei3X_nNcVOAWFnrwYJnpAUtYJ1",
     "distance_km": 18.29,
     "ascent_m": 1299,
     "duration_h": 9.25,
-    "got_points": 31.28,
+    "got": "31.28",
     "got_total": 850.24,
     "accomodation": "Pikovce Kamenný dom",
     "trail_counter": "175",
     "exp_counter": "042",
     "lat": 49.1795,
     "lon": 20.088,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM, JS",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

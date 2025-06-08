@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1753",
+    "nr": "1753",
     "date": "2017-10-15",
     "name": "Stebnicka Magura",
     "mountains": "Nizke Beskydy",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-10-15-09-00-stebnicka-magura-20341594",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-10-15-09-00-stebnicka-magura-20341594",
     "photo_album_url": "https://photos.app.goo.gl/ue9hVUTq8Rq0QyX33",
     "photo_stamp_url": "https://drive.google.com/open?id=1PyJqlVngWr7bPx-xM3SbImuBBzVs1u0u",
     "distance_km": 9.99,
     "ascent_m": 630,
     "duration_h": 3.95,
-    "got_points": 16.29,
+    "got": "16.29",
     "got_total": 934.11,
     "accomodation": "Bardejów Zdrój Apartman Afrodita",
     "trail_counter": "128",
     "exp_counter": "030",
     "lat": 49.3601,
     "lon": 21.2458,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

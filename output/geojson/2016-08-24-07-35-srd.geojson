@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1621",
+    "nr": "1621",
     "date": "2016-08-24",
     "name": "Srd",
     "mountains": "Dubrovnik",
     "country": "CR",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-08-24-07-35-srd-17799689",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-08-24-07-35-srd-17799689",
     "photo_album_url": "https://photos.app.goo.gl/WXqex2p8aFMfgFuu1",
     "photo_stamp_url": "https://drive.google.com/open?id=1txMF0cUB_GVvisggR5TkuDroqwpfVZ2N",
     "distance_km": 17.25,
     "ascent_m": 622,
     "duration_h": 11.22,
-    "got_points": 23.47,
+    "got": "23.47",
     "got_total": 603.78,
     "accomodation": "Saplunara Apartments Pitarević",
     "trail_counter": "049",
     "exp_counter": "011",
     "lat": 42.6505,
     "lon": 18.1097,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

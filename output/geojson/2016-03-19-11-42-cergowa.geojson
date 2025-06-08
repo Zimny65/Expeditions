@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1601",
+    "nr": "1601",
     "date": "2016-03-19",
     "name": "Cergowa",
     "mountains": "Beskid Niski",
     "country": "PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-03-19-11-42-cergowa-17799528",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-03-19-11-42-cergowa-17799528",
     "photo_album_url": "https://photos.app.goo.gl/dr4bZdgrjbDFIecu2",
     "photo_stamp_url": "https://drive.google.com/open?id=1TQnorRgAOj3MqvuWMKjWosGaeLntWlOc",
     "distance_km": 12.22,
     "ascent_m": 396,
     "duration_h": 3.32,
-    "got_points": 16.18,
+    "got": "16.18",
     "got_total": 16.18,
     "accomodation": "Dom Michałowice",
     "trail_counter": "029",
     "exp_counter": "008",
     "lat": 49.5306,
     "lon": 21.7178,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

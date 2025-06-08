@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1620",
+    "nr": "1620",
     "date": "2016-08-23",
     "name": "Veliki Grad",
     "mountains": "Mljet",
     "country": "CR",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-08-23-12-02-veliki-grad-17799680",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-08-23-12-02-veliki-grad-17799680",
     "photo_album_url": "https://photos.app.goo.gl/Zl4jyCIUA8E8zgD02",
     "photo_stamp_url": "https://drive.google.com/open?id=1hNK3vZlMiTl__lKl04x9TqG8Gx86qX4O",
     "distance_km": 2.94,
     "ascent_m": 325,
     "duration_h": 4.55,
-    "got_points": 6.19,
+    "got": "6.19",
     "got_total": 580.31,
     "accomodation": "Saplunara Apartments Pitarević",
     "trail_counter": "048",
     "exp_counter": "011",
     "lat": 42.7395,
     "lon": 17.555,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM, AC, DS, MS, BS, JS",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

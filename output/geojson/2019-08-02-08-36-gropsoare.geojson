@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1921",
+    "nr": "1921",
     "date": "2019-08-02",
     "name": "Gropsoare",
     "mountains": "Masivul Ciucas",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-08-02-08-36-gropsoare-39396106",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-08-02-08-36-gropsoare-39396106",
     "photo_album_url": "https://photos.app.goo.gl/Y1GD6B4QwrrRrdRc6",
     "photo_stamp_url": "https://drive.google.com/open?id=1P599WtXAkBiq4AOQhSPRibSmEuZgfbBY",
     "distance_km": 9.88,
     "ascent_m": 709,
     "duration_h": 4.7,
-    "got_points": 16.97,
+    "got": "16.97",
     "got_total": 293.88,
     "accomodation": "Brasov DALY",
     "trail_counter": "206",
     "exp_counter": "049",
     "lat": 45.4901,
     "lon": 25.9753,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

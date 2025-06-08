@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1824",
+    "nr": "1824",
     "date": "2018-05-27",
     "name": "Bivolul",
     "mountains": "Muntii Stanisoarei",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-27-10-06-bivolul-25269417",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-27-10-06-bivolul-25269417",
     "photo_album_url": "https://photos.app.goo.gl/Up0vE4GXxzQAuHHz1",
     "photo_stamp_url": "https://drive.google.com/open?id=1S4Z-FFpEkcctakZ74ndCDvXGPAJVpJ-u",
     "distance_km": 12.22,
     "ascent_m": 755,
     "duration_h": 4.22,
-    "got_points": 19.77,
+    "got": "19.77",
     "got_total": 398.52,
     "accomodation": "Pârâul Pîntei Vila Teo",
     "trail_counter": "158",
     "exp_counter": "039",
     "lat": 47.2525,
     "lon": 25.9315,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

@@ -1,7 +1,14 @@
 {
   "type": "Feature",
   "properties": {
+    "nr": "1604",
+    "date": "2016-05-28",
     "name": "Mały Topas",
+    "mountains": "Połonina Krasna",
+    "country": "UA",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-05-28-08-45-maly-topas-17799545",
+    "photo_album_url": "https://photos.app.goo.gl/b5Gf7GbA4DThmiWX2",
+    "photo_stamp_url": "https://drive.google.com/open?id=1gi7tQG0pwFaBhQfkxfy5uxAxQsLjlXOE",
     "distance_km": 16.83,
     "ascent_m": 995,
     "duration_h": 8.52,
@@ -14,13 +21,6 @@
     "lon": 23.7516,
     "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "wikiloc_url": "https://photos.app.goo.gl/b5Gf7GbA4DThmiWX2",
-    "photo_album_url": "https://drive.google.com/open?id=1gi7tQG0pwFaBhQfkxfy5uxAxQsLjlXOE",
-    "photo_stamp_url": "16.83",
-    "country": "UA",
-    "mountains": "Połonina Krasna",
-    "date": "2016-05-28",
-    "trail_gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-05-28-08-45-maly-topas-17799545",
     "mapycz_gpx_url": ""
   },
   "geometry": {

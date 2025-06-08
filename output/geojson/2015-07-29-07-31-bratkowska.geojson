@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1516",
+    "nr": "1516",
     "date": "2015-07-29",
     "name": "Bratkowska",
     "mountains": "Połonina Czarna",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-29-07-31-bratkowska-17798641",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-29-07-31-bratkowska-17798641",
     "photo_album_url": "https://photos.app.goo.gl/OA7TZPB79xrMLQbm2",
     "photo_stamp_url": "https://drive.google.com/open?id=10G7yIIYZ6wY7Yo98oiW5muEKCLxYPCCl",
     "distance_km": 14.37,
     "ascent_m": 1043,
     "duration_h": 10.57,
-    "got_points": 24.8,
+    "got": "24.80",
     "got_total": 452.27,
     "accomodation": "Rafajłowa Biernat House",
     "trail_counter": "016",
     "exp_counter": "003",
     "lat": 48.3653,
     "lon": 24.1788,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

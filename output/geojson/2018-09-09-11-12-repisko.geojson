@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1843",
+    "nr": "1843",
     "date": "2018-09-09",
     "name": "Repisko",
     "mountains": "Spisska Magura",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-09-09-11-12-repisko-28484033",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-09-09-11-12-repisko-28484033",
     "photo_album_url": "https://photos.app.goo.gl/d4ZhLEs6topPr48L7",
     "photo_stamp_url": "https://drive.google.com/open?id=1mQTunNQRxygehe2SQVhLK5_covphyiIE",
     "distance_km": 4.22,
     "ascent_m": 129,
     "duration_h": 1.4,
-    "got_points": 5.51,
+    "got": "5.51",
     "got_total": 871.38,
     "accomodation": "Pikovce Kamenný dom",
     "trail_counter": "177",
     "exp_counter": "042",
     "lat": 49.2919,
     "lon": 20.1983,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM, DS, MS, BS, JS",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

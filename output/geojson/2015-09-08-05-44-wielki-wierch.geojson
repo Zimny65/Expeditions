@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1521",
+    "nr": "1521",
     "date": "2015-09-08",
     "name": "Wielki Wierch",
     "mountains": "Połonina Borżawa",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-09-08-05-44-wielki-wierch-17798654",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-09-08-05-44-wielki-wierch-17798654",
     "photo_album_url": "https://photos.app.goo.gl/rodHR8CyTMcC34Fi2",
     "photo_stamp_url": "https://drive.google.com/open?id=1HVd441BqQcRj9qMMJvc6NHF4_BmQVu9j",
     "distance_km": 35.21,
     "ascent_m": 1494,
     "duration_h": 12.75,
-    "got_points": 50.15,
+    "got": "50.15",
     "got_total": 628.7,
     "accomodation": "Wołowiec Strelec Hotel Complex",
     "trail_counter": "021",
     "exp_counter": "004",
     "lat": 48.6475,
     "lon": 23.2296,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1915",
+    "nr": "1915",
     "date": "2019-06-30",
     "name": "Kralova Hola",
     "mountains": "Nizke Tatry",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-06-30-06-16-kralova-hola-38217902",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-06-30-06-16-kralova-hola-38217902",
     "photo_album_url": "https://photos.app.goo.gl/KqrT6RbRGwB8qJzN6",
     "photo_stamp_url": "https://drive.google.com/open?id=1bxVkDJ7Lm-sKcL_-W38OZDl5J-XzdZ7i",
     "distance_km": 20.71,
     "ascent_m": 1231,
     "duration_h": 8.45,
-    "got_points": 33.02,
+    "got": "33.02",
     "got_total": 164.97,
     "accomodation": "Kravany MI-TATRY",
     "trail_counter": "200",
     "exp_counter": "048",
     "lat": 48.8819,
     "lon": 20.1403,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

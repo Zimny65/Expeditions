@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "2114",
+    "nr": "2114",
     "date": "2021-05-13",
     "name": "Jaworniki Zuków",
     "mountains": "Góry Sanocko-Turczańskie",
     "country": "PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-05-13-10-29-jaworniki-zukow-72917469",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-05-13-10-29-jaworniki-zukow-72917469",
     "photo_album_url": "https://photos.app.goo.gl/hbdPLFz2EKd8Eheo7",
     "photo_stamp_url": "",
     "distance_km": 26.32,
     "ascent_m": 694,
     "duration_h": 6.2,
-    "got_points": 33.26,
+    "got": "33.26",
     "got_total": 330.31,
     "accomodation": "Wańkowa Domki pod Bukowym Lasem",
     "trail_counter": "270",
     "exp_counter": "069",
     "lat": 49.3411,
     "lon": 22.7131,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

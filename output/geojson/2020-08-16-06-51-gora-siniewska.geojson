@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "2012",
+    "nr": "2012",
     "date": "2020-08-16",
     "name": "Góra Siniewska",
     "mountains": "Góry Świętokrzyskie",
     "country": "PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2020-08-16-06-51-gora-siniewska-54827290",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2020-08-16-06-51-gora-siniewska-54827290",
     "photo_album_url": "https://photos.app.goo.gl/2nqX3FipGG83aGpQ9",
     "photo_stamp_url": "",
     "distance_km": 20.24,
     "ascent_m": 574,
     "duration_h": 5.35,
-    "got_points": 25.98,
+    "got": "25.98",
     "got_total": 261.65,
     "accomodation": "Dom Michałowice",
     "trail_counter": "252",
     "exp_counter": "063",
     "lat": 50.9751,
     "lon": 20.4449,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

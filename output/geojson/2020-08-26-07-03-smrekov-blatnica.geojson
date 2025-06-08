@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "2015",
+    "nr": "2015",
     "date": "2020-08-26",
     "name": "Smrekov Blatnica",
     "mountains": "Velka Fatra",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2020-08-26-07-03-smrekov-blatnica-55550831",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2020-08-26-07-03-smrekov-blatnica-55550831",
     "photo_album_url": "https://photos.app.goo.gl/4dHcZkFjwWXTomee8",
     "photo_stamp_url": "",
     "distance_km": 23.83,
     "ascent_m": 1014,
     "duration_h": 9.13,
-    "got_points": 33.97,
+    "got": "33.97",
     "got_total": 354.49,
     "accomodation": "Blatnica Apartmánový Dom River",
     "trail_counter": "255",
     "exp_counter": "064",
     "lat": 48.8857,
     "lon": 19.024,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

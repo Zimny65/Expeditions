@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1518",
+    "nr": "1518",
     "date": "2015-07-31",
     "name": "Jawornik",
     "mountains": "Gorgany Wschodnie",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-31-10-52-jawornik-17798645",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-31-10-52-jawornik-17798645",
     "photo_album_url": "https://photos.app.goo.gl/UDS1NR62yOScGScz1",
     "photo_stamp_url": "https://drive.google.com/open?id=15rlAvzopYp8K6x18wqPazUwv4F71uMjn",
     "distance_km": 19.55,
     "ascent_m": 1150,
     "duration_h": 8.3,
-    "got_points": 31.05,
+    "got": "31.05",
     "got_total": 499.58,
     "accomodation": "Jaremcze Kraevyd Hotel",
     "trail_counter": "018",
     "exp_counter": "003",
     "lat": 48.4074,
     "lon": 24.4984,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1952",
+    "nr": "1952",
     "date": "2019-11-12",
     "name": "Wielka Rawka",
     "mountains": "Bieszczady Zachodnie",
     "country": "PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-11-12-07-18-wielka-rawka-43480225",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-11-12-07-18-wielka-rawka-43480225",
     "photo_album_url": "https://photos.app.goo.gl/V9jK5bkoiGf6X7jz9",
     "photo_stamp_url": "https://drive.google.com/open?id=1YArB3lTdlmfJIvW4tYLOJY9s2giWtOVN",
     "distance_km": 24.7,
     "ascent_m": 847,
     "duration_h": 7.72,
-    "got_points": 33.17,
+    "got": "33.17",
     "got_total": 958.78,
     "accomodation": "Smerek Niemczukówka",
     "trail_counter": "237",
     "exp_counter": "055",
     "lat": 49.0994,
     "lon": 22.5764,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

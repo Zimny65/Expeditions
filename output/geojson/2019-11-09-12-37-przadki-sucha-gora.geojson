@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1949",
+    "nr": "1949",
     "date": "2019-11-09",
     "name": "Prządki Sucha Góra",
     "mountains": "Pogórze Dynowskie",
     "country": "PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-11-09-12-37-przadki-sucha-gora-43383715",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-11-09-12-37-przadki-sucha-gora-43383715",
     "photo_album_url": "https://photos.app.goo.gl/R9TJXLfFWWZQCuhv7",
     "photo_stamp_url": "https://drive.google.com/open?id=1DpxjEpm-WMwv7lFe-A0MdQHKT26-_R8g",
     "distance_km": 12.89,
     "ascent_m": 373,
     "duration_h": 3.35,
-    "got_points": 16.62,
+    "got": "16.62",
     "got_total": 877.59,
     "accomodation": "Maniów Maniówka",
     "trail_counter": "234",
     "exp_counter": "055",
     "lat": 49.7563,
     "lon": 21.8155,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

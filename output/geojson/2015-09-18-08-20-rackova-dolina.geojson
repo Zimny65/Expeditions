@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1525",
+    "nr": "1525",
     "date": "2015-09-18",
     "name": "Rackova Dolina",
     "mountains": "Zapadne Tatry",
     "country": "SK, PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-09-18-08-20-rackova-dolina-17798660",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-09-18-08-20-rackova-dolina-17798660",
     "photo_album_url": "https://photos.app.goo.gl/cHdIDAYg38nLFp432",
     "photo_stamp_url": "https://drive.google.com/open?id=1wKqMf87P8-SFLx_l0ztamC4A1D5M8Saj",
     "distance_km": 24.15,
     "ascent_m": 1597,
     "duration_h": 11.18,
-    "got_points": 40.12,
+    "got": "40.12",
     "got_total": 752.69,
     "accomodation": "Przybylina Penzion Sileo",
     "trail_counter": "025",
     "exp_counter": "005",
     "lat": 49.1916,
     "lon": 19.8006,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

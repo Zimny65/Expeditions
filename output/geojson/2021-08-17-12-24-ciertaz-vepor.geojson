@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "2128",
+    "nr": "2128",
     "date": "2021-08-17",
     "name": "Ciertaz Vepor",
     "mountains": "Rudawy Weporskie",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-08-17-12-24-ciertaz-vepor-81268673",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-08-17-12-24-ciertaz-vepor-81268673",
     "photo_album_url": "https://photos.app.goo.gl/7bw31tdDtsgbXBYq7",
     "photo_stamp_url": "",
     "distance_km": 22.49,
     "ascent_m": 849,
     "duration_h": 5.08,
-    "got_points": 30.98,
+    "got": "30.98",
     "got_total": 659.73,
     "accomodation": "Apartmany Bystra Chopok",
     "trail_counter": "284",
     "exp_counter": "072",
     "lat": 48.7682,
     "lon": 19.4599,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

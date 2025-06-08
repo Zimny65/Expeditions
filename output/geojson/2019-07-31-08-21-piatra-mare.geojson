@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1919",
+    "nr": "1919",
     "date": "2019-07-31",
     "name": "Piatra Mare",
     "mountains": "Muntii Piatra Mare",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-07-31-08-21-piatra-mare-39315770",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-07-31-08-21-piatra-mare-39315770",
     "photo_album_url": "https://photos.app.goo.gl/VfnFJ22grwFVThZS9",
     "photo_stamp_url": "https://drive.google.com/open?id=15sZmxVg2Uit-X9A9E6LUYtE11cX22X3f",
     "distance_km": 16.89,
     "ascent_m": 1049,
     "duration_h": 6.97,
-    "got_points": 27.38,
+    "got": "27.38",
     "got_total": 273.84,
     "accomodation": "Brasov DALY",
     "trail_counter": "204",
     "exp_counter": "049",
     "lat": 45.5509,
     "lon": 25.6382,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

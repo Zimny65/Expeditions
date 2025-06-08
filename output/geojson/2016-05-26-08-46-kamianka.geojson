@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1602",
+    "nr": "1602",
     "date": "2016-05-26",
     "name": "Kamianka",
     "mountains": "Gorgany Synewirskie",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-05-26-08-46-kamianka-17799533",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-05-26-08-46-kamianka-17799533",
     "photo_album_url": "https://photos.app.goo.gl/wNIYKLaAg7YU4ns92",
     "photo_stamp_url": "https://drive.google.com/open?id=1zKzPOLpoGf8PtTR3AxprGNqI7FpOJtbb",
     "distance_km": 19.35,
     "ascent_m": 1222,
     "duration_h": 11.83,
-    "got_points": 31.57,
+    "got": "31.57",
     "got_total": 47.75,
     "accomodation": "Synewir Gostyniy Dvir Synevir",
     "trail_counter": "030",
     "exp_counter": "009",
     "lat": 48.5576,
     "lon": 23.6285,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

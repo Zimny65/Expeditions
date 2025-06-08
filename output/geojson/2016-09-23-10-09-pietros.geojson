@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1626",
+    "nr": "1626",
     "date": "2016-09-23",
     "name": "Pietros",
     "mountains": "Czarnohora",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-09-23-10-09-pietros-17799708",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-09-23-10-09-pietros-17799708",
     "photo_album_url": "https://photos.app.goo.gl/1N0jy9X1erbPTUqM2",
     "photo_stamp_url": "https://drive.google.com/open?id=12QwMeqmlN8a5Yp1jbde88JZYQnGsvhv-",
     "distance_km": 31.04,
     "ascent_m": 1579,
     "duration_h": 10.25,
-    "got_points": 46.83,
+    "got": "46.83",
     "got_total": 715.48,
     "accomodation": "Kwasy Chalet TysaBorkut",
     "trail_counter": "054",
     "exp_counter": "012",
     "lat": 48.172,
     "lon": 24.4215,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

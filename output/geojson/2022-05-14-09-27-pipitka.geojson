@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "2208",
+    "nr": "2208",
     "date": "2022-05-14",
     "name": "Pipitka",
     "mountains": "Volovské vrchy",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2022-05-14-09-27-pipitka-102743329",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2022-05-14-09-27-pipitka-102743329",
     "photo_album_url": "https://photos.app.goo.gl/buvkfZVaBSRuXaPD9",
     "photo_stamp_url": "",
     "distance_km": 24.2,
     "ascent_m": 1000,
     "duration_h": 6.97,
-    "got_points": 34.2,
+    "got": "34.20",
     "got_total": 221.5,
     "accomodation": "Betliar The Tasty Rooms",
     "trail_counter": "306",
     "exp_counter": "079",
     "lat": 48.6844,
     "lon": 20.6754,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

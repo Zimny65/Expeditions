@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1917",
+    "nr": "1917",
     "date": "2019-07-29",
     "name": "Ciucas",
     "mountains": "Masivul Ciucas",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-07-29-09-07-ciucas-39242207",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-07-29-09-07-ciucas-39242207",
     "photo_album_url": "https://photos.app.goo.gl/8x7H5x5qUbz8KhJA6",
     "photo_stamp_url": "https://drive.google.com/open?id=1VCAHo2KF6LKV2oZXj3a55tp6ZWnoDaBy",
     "distance_km": 16.98,
     "ascent_m": 885,
     "duration_h": 6.93,
-    "got_points": 25.83,
+    "got": "25.83",
     "got_total": 218.38,
     "accomodation": "Brasov DALY",
     "trail_counter": "202",
     "exp_counter": "049",
     "lat": 45.5218,
     "lon": 25.9262,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

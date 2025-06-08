@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1744",
+    "nr": "1744",
     "date": "2017-08-30",
     "name": "Gutaiul Mare",
     "mountains": "Muntii Gutai",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-08-30-08-01-gutaiul-mare-19472053",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-08-30-08-01-gutaiul-mare-19472053",
     "photo_album_url": "https://photos.app.goo.gl/eGN2uSyasKWo2DGH2",
     "photo_stamp_url": "https://drive.google.com/open?id=1rkI0Sbg5jumRPW_B-wey884YVLyUf9Vq",
     "distance_km": 16.22,
     "ascent_m": 529,
     "duration_h": 6.25,
-    "got_points": 21.51,
+    "got": "21.51",
     "got_total": 742.96,
     "accomodation": "Mogosza Cabana Pintea",
     "trail_counter": "119",
     "exp_counter": "028",
     "lat": 47.6957,
     "lon": 23.8609,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

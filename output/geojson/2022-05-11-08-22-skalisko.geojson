@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "2205",
+    "nr": "2205",
     "date": "2022-05-11",
     "name": "Skalisko",
     "mountains": "Volovské vrchy",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2022-05-11-08-22-skalisko-102458586",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2022-05-11-08-22-skalisko-102458586",
     "photo_album_url": "https://photos.app.goo.gl/YgvDBGJd9H6sf6Lp6",
     "photo_stamp_url": "",
     "distance_km": 24.65,
     "ascent_m": 1136,
     "duration_h": 7.75,
-    "got_points": 36.01,
+    "got": "36.01",
     "got_total": 133.78,
     "accomodation": "Betliar The Tasty Rooms",
     "trail_counter": "303",
     "exp_counter": "079",
     "lat": 48.7441,
     "lon": 20.5756,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

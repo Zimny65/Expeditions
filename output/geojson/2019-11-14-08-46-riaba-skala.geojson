@@ -1,7 +1,14 @@
 {
   "type": "Feature",
   "properties": {
+    "nr": "1954",
+    "date": "2019-11-14",
     "name": "Riaba Skała",
+    "mountains": "Bieszczady Zachodnie",
+    "country": "PL, SK",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-11-14-08-46-riaba-skala-43532075",
+    "photo_album_url": "https://photos.app.goo.gl/gAr3PBRFcVaj8EAj7",
+    "photo_stamp_url": "https://drive.google.com/open?id=1-MttObkZg5uwRNXbuFWZJ6n-KpIEDBIs",
     "distance_km": 15.47,
     "ascent_m": 827,
     "duration_h": 5.17,
@@ -14,13 +21,6 @@
     "lon": 22.4408,
     "only_mountain": "1",
     "participants": "AM, BM",
-    "wikiloc_url": "https://photos.app.goo.gl/gAr3PBRFcVaj8EAj7",
-    "photo_album_url": "https://drive.google.com/open?id=1-MttObkZg5uwRNXbuFWZJ6n-KpIEDBIs",
-    "photo_stamp_url": "15.47",
-    "country": "PL, SK",
-    "mountains": "Bieszczady Zachodnie",
-    "date": "2019-11-14",
-    "trail_gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-11-14-08-46-riaba-skala-43532075",
     "mapycz_gpx_url": ""
   },
   "geometry": {

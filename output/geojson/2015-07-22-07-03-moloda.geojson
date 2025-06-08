@@ -1,7 +1,14 @@
 {
   "type": "Feature",
   "properties": {
+    "nr": "1511",
+    "date": "2015-07-22",
     "name": "Mołoda",
+    "mountains": "Gorgany Zachodnie",
+    "country": "UA",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-22-07-03-moloda-17798629",
+    "photo_album_url": "https://photos.app.goo.gl/B0gqk7hONgpgjweG3",
+    "photo_stamp_url": "https://drive.google.com/open?id=15xk-vu5xJ2lzSab6VlkNbpfbZqhJsIC8",
     "distance_km": 28.04,
     "ascent_m": 1501,
     "duration_h": 13.13,
@@ -14,13 +21,6 @@
     "lon": 23.8677,
     "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "wikiloc_url": "https://photos.app.goo.gl/B0gqk7hONgpgjweG3",
-    "photo_album_url": "https://drive.google.com/open?id=15xk-vu5xJ2lzSab6VlkNbpfbZqhJsIC8",
-    "photo_stamp_url": "28.04",
-    "country": "UA",
-    "mountains": "Gorgany Zachodnie",
-    "date": "2015-07-22",
-    "trail_gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-22-07-03-moloda-17798629",
     "mapycz_gpx_url": ""
   },
   "geometry": {

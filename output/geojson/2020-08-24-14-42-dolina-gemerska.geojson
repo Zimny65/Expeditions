@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "2013",
+    "nr": "2013",
     "date": "2020-08-24",
     "name": "Dolina Gemerska",
     "mountains": "Velka Fatra",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2020-08-24-14-42-dolina-gemerska-55481270",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2020-08-24-14-42-dolina-gemerska-55481270",
     "photo_album_url": "https://photos.app.goo.gl/ZE1oK7kPC2MsmrsY7",
     "photo_stamp_url": "",
     "distance_km": 26.52,
     "ascent_m": 536,
     "duration_h": 6.23,
-    "got_points": 31.88,
+    "got": "31.88",
     "got_total": 293.53,
     "accomodation": "Blatnica Apartmánový Dom River",
     "trail_counter": "253",
     "exp_counter": "064",
     "lat": 48.9391,
     "lon": 19.0056,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

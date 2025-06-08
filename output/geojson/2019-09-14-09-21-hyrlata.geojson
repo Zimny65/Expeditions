@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1934",
+    "nr": "1934",
     "date": "2019-09-14",
     "name": "Hyrlata",
     "mountains": "Bieszczady Zachodnie",
     "country": "PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-09-14-09-21-hyrlata-41249457",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-09-14-09-21-hyrlata-41249457",
     "photo_album_url": "https://photos.app.goo.gl/NQUPYf1GnT9sco3XA",
     "photo_stamp_url": "https://drive.google.com/open?id=1q9wBavvcE3CCAhiivl79e5sPTNoK7SdP",
     "distance_km": 18.41,
     "ascent_m": 677,
     "duration_h": 5.95,
-    "got_points": 25.18,
+    "got": "25.18",
     "got_total": 527.39,
     "accomodation": "Dołżyca Leonówka",
     "trail_counter": "219",
     "exp_counter": "051",
     "lat": 49.1816,
     "lon": 22.2821,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

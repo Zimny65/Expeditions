@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1946",
+    "nr": "1946",
     "date": "2019-10-26",
     "name": "Zvolen",
     "mountains": "Velka Fatra",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-10-26-07-32-zvolen-42864440",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-10-26-07-32-zvolen-42864440",
     "photo_album_url": "https://photos.app.goo.gl/qPuW7zwXQaS1wUmV7",
     "photo_stamp_url": "https://drive.google.com/open?id=1Jc4ybnWYwSc-x-FeXuc7K4jlJNcTXc0H",
     "distance_km": 20.56,
     "ascent_m": 953,
     "duration_h": 6.98,
-    "got_points": 30.09,
+    "got": "30.09",
     "got_total": 830.46,
     "accomodation": "Liptovské Revúce Štyri Lipy",
     "trail_counter": "231",
     "exp_counter": "054",
     "lat": 48.8904,
     "lon": 19.2236,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1607",
+    "nr": "1607",
     "date": "2016-06-19",
     "name": "Kostrzyca",
     "mountains": "Czarnohora",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-06-19-08-28-kostrzyca-17799572",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-06-19-08-28-kostrzyca-17799572",
     "photo_album_url": "https://photos.app.goo.gl/lhz6Lwi4mvIUowQK2",
     "photo_stamp_url": "https://drive.google.com/open?id=1Y-l24nl41x19HtJeMcj4Rh7C0TWN0bKi",
     "distance_km": 16.74,
     "ascent_m": 796,
     "duration_h": 5.97,
-    "got_points": 24.7,
+    "got": "24.70",
     "got_total": 194.95,
     "accomodation": "Worochta Cottage Oberig",
     "trail_counter": "035",
     "exp_counter": "010",
     "lat": 48.1825,
     "lon": 24.6361,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

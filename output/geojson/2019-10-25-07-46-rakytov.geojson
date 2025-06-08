@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1945",
+    "nr": "1945",
     "date": "2019-10-25",
     "name": "Rakytov",
     "mountains": "Velka Fatra",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-10-25-07-46-rakytov-42819460",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-10-25-07-46-rakytov-42819460",
     "photo_album_url": "https://photos.app.goo.gl/dqs5f4sdY2Xr9CgV7",
     "photo_stamp_url": "https://drive.google.com/open?id=1N0sMGY05YNQRbWuBVujghVPhvOLLaDmW",
     "distance_km": 21.35,
     "ascent_m": 1319,
     "duration_h": 9.23,
-    "got_points": 34.54,
+    "got": "34.54",
     "got_total": 800.37,
     "accomodation": "Liptovské Revúce Štyri Lipy",
     "trail_counter": "230",
     "exp_counter": "054",
     "lat": 48.9603,
     "lon": 19.1799,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

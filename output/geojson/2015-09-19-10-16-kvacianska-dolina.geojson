@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1526",
+    "nr": "1526",
     "date": "2015-09-19",
     "name": "Kvacianska Dolina",
     "mountains": "Chocske Vrchy",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-09-19-10-16-kvacianska-dolina-17798664",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-09-19-10-16-kvacianska-dolina-17798664",
     "photo_album_url": "https://photos.app.goo.gl/KacoVcV6l5hCEng02",
     "photo_stamp_url": "https://drive.google.com/open?id=1IyT_S4XA4ZC9Ik5luazg7XnY46wDbEro",
     "distance_km": 15.54,
     "ascent_m": 713,
     "duration_h": 4.38,
-    "got_points": 22.67,
+    "got": "22.67",
     "got_total": 775.36,
     "accomodation": "Przybylina Penzion Sileo",
     "trail_counter": "026",
     "exp_counter": "005",
     "lat": 49.1784,
     "lon": 19.542,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

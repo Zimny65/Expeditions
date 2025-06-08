@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1757",
+    "nr": "1757",
     "date": "2017-10-22",
     "name": "Piotruś",
     "mountains": "Beskid Niski",
     "country": "PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-10-22-09-12-piotrus-20485048",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-10-22-09-12-piotrus-20485048",
     "photo_album_url": "https://photos.app.goo.gl/p2xtfpaBj9omeY232",
     "photo_stamp_url": "https://drive.google.com/open?id=1w8K0QWbl9SQMQ0GPvZ-cKEGleOBB3uwy",
     "distance_km": 9.92,
     "ascent_m": 387,
     "duration_h": 5.87,
-    "got_points": 13.79,
+    "got": "13.79",
     "got_total": 988.76,
     "accomodation": "Zawadka Rymanowska Farfurnia",
     "trail_counter": "132",
     "exp_counter": "031",
     "lat": 49.4765,
     "lon": 21.7495,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, JC, KŁ, BŁ",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

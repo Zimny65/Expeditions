@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1509",
+    "nr": "1509",
     "date": "2015-07-19",
     "name": "Gorgan Wyszkowski",
     "mountains": "Gorgany Zachodnie",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-19-08-17-gorgan-wyszkowski-17798627",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-19-08-17-gorgan-wyszkowski-17798627",
     "photo_album_url": "https://photos.app.goo.gl/NAqmHV4cECOauNqs1",
     "photo_stamp_url": "https://drive.google.com/open?id=14J-UAMsJTKuvlyak9d_RmYh5JxSdmsQh",
     "distance_km": 21.54,
     "ascent_m": 827,
     "duration_h": 8.85,
-    "got_points": 29.81,
+    "got": "29.81",
     "got_total": 233.53,
     "accomodation": "Ludwikówka Medved",
     "trail_counter": "009",
     "exp_counter": "003",
     "lat": 48.6469,
     "lon": 23.6879,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

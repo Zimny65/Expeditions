@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1836",
+    "nr": "1836",
     "date": "2018-08-30",
     "name": "Nascalat",
     "mountains": "Muntii Nascalat",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-08-30-09-40-nascalat-28144975",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-08-30-09-40-nascalat-28144975",
     "photo_album_url": "https://photos.app.goo.gl/3btPjGj1iQpNf5RN7",
     "photo_stamp_url": "https://drive.google.com/open?id=14RFd7eDNv7f-5yXGF4Ooj9sXUMlrpjFL",
     "distance_km": 21.96,
     "ascent_m": 848,
     "duration_h": 7.85,
-    "got_points": 30.44,
+    "got": "30.44",
     "got_total": 714.33,
     "accomodation": "Lăzarea Szárhegyi Pihenő",
     "trail_counter": "170",
     "exp_counter": "042",
     "lat": 46.6082,
     "lon": 25.9095,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM, DS, MS, BS, JS",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

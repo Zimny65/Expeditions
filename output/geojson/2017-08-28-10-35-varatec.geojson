@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1742",
+    "nr": "1742",
     "date": "2017-08-28",
     "name": "Varatec",
     "mountains": "Muntii Lapusului",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-08-28-10-35-varatec-19443577",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-08-28-10-35-varatec-19443577",
     "photo_album_url": "https://photos.app.goo.gl/1hdeiaYSldNpfD7i1",
     "photo_stamp_url": "https://drive.google.com/open?id=1Vv315a4El0F77jsRvvKM-FqfY_QifD_s",
     "distance_km": 15.38,
     "ascent_m": 702,
     "duration_h": 4.8,
-    "got_points": 22.4,
+    "got": "22.40",
     "got_total": 689.31,
     "accomodation": "Mogosza Cabana Pintea",
     "trail_counter": "117",
     "exp_counter": "028",
     "lat": 47.6603,
     "lon": 24.0416,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

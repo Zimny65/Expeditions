@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1948",
+    "nr": "1948",
     "date": "2019-10-27",
     "name": "Siprun",
     "mountains": "Velka Fatra",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-10-27-07-10-siprun-42944837",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-10-27-07-10-siprun-42944837",
     "photo_album_url": "https://photos.app.goo.gl/RFAnrFZMiop3bYT6A",
     "photo_stamp_url": "https://drive.google.com/open?id=1_CxIsyg5iEFjas6hmuc2MDF6Iz-tB9Qv",
     "distance_km": 18.1,
     "ascent_m": 730,
     "duration_h": 4.42,
-    "got_points": 25.4,
+    "got": "25.40",
     "got_total": 860.97,
     "accomodation": "Ružomberok Fatrapark",
     "trail_counter": "233",
     "exp_counter": "054",
     "lat": 49.0235,
     "lon": 19.2292,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

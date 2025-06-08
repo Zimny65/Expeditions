@@ -1,7 +1,14 @@
 {
   "type": "Feature",
   "properties": {
+    "nr": "1517",
+    "date": "2015-07-30",
     "name": "Rafajłowa",
+    "mountains": "Połonina Czarna",
+    "country": "UA",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-30-08-29-rafajlowa-17798643",
+    "photo_album_url": "https://photos.app.goo.gl/6QuZKAOexdjG286x1",
+    "photo_stamp_url": "https://drive.google.com/open?id=1qt4WUSHeCPM_VB89sVXVMgbZCgr0hdTE",
     "distance_km": 13.98,
     "ascent_m": 228,
     "duration_h": 5.83,
@@ -14,13 +21,6 @@
     "lon": 24.2492,
     "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "wikiloc_url": "https://photos.app.goo.gl/6QuZKAOexdjG286x1",
-    "photo_album_url": "https://drive.google.com/open?id=1qt4WUSHeCPM_VB89sVXVMgbZCgr0hdTE",
-    "photo_stamp_url": "13.98",
-    "country": "UA",
-    "mountains": "Połonina Czarna",
-    "date": "2015-07-30",
-    "trail_gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-30-08-29-rafajlowa-17798643",
     "mapycz_gpx_url": ""
   },
   "geometry": {

@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "2008",
+    "nr": "2008",
     "date": "2020-07-28",
     "name": "Polica",
     "mountains": "Beskid Żywiecki",
     "country": "PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2020-07-28-05-59-polica-53574138",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2020-07-28-05-59-polica-53574138",
     "photo_album_url": "https://photos.app.goo.gl/sy1L2j5wWVRqJ9vaA",
     "photo_stamp_url": "",
     "distance_km": 14.76,
     "ascent_m": 826,
     "duration_h": 4.92,
-    "got_points": 23.02,
+    "got": "23.02",
     "got_total": 199.27,
     "accomodation": "Zubrzyca Dolna U Jagódki",
     "trail_counter": "248",
     "exp_counter": "061",
     "lat": 49.6235,
     "lon": 19.6197,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1814",
+    "nr": "1814",
     "date": "2018-04-29",
     "name": "Scoruset",
     "mountains": "Obcina Mare",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-04-29-09-10-scoruset-24423089",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-04-29-09-10-scoruset-24423089",
     "photo_album_url": "https://photos.app.goo.gl/TFhRpNTgA4uZJN722",
     "photo_stamp_url": "https://drive.google.com/open?id=14CpMAlamMmVntR45UE-e67ABjpb7BHYB",
     "distance_km": 21.5,
     "ascent_m": 789,
     "duration_h": 6.88,
-    "got_points": 29.39,
+    "got": "29.39",
     "got_total": 211.63,
     "accomodation": "Fundu Moldovei Casa Cristina",
     "trail_counter": "148",
     "exp_counter": "038",
     "lat": 47.6871,
     "lon": 25.6905,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1941",
+    "nr": "1941",
     "date": "2019-10-12",
     "name": "Ciechania Wysokie",
     "mountains": "Beskid Niski",
     "country": "PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-10-12-09-26-ciechania-wysokie-42438002",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-10-12-09-26-ciechania-wysokie-42438002",
     "photo_album_url": "https://photos.app.goo.gl/8rEAXLdUxAfS4WdC9",
     "photo_stamp_url": "https://drive.google.com/open?id=1pjkuVpO8-zmnNyIzWFNyiG9AVCVLsBYx",
     "distance_km": 20.89,
     "ascent_m": 451,
     "duration_h": 5.98,
-    "got_points": 25.4,
+    "got": "25.40",
     "got_total": 708.94,
     "accomodation": "Ropianka AKT Maluch",
     "trail_counter": "226",
     "exp_counter": "053",
     "lat": 49.4599,
     "lon": 21.4737,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, JC",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

@@ -1,30 +1,27 @@
 import geojson
-from shapely.geometry import shape, mapping
-from shapely.geometry.base import BaseGeometry
+import geopandas as gpd
+from shapely.geometry import shape
 from tqdm import tqdm
 from pathlib import Path
 
 input_file = "output/all_trails.geojson"
 output_file = "output/simplified_trails.geojson"
 
+# Wczytaj dane wejściowe jako GeoJSON
 with open(input_file, "r", encoding="utf-8") as f:
     data = geojson.load(f)
 
-simplified_features = []
-
+features = []
 for feature in tqdm(data["features"], desc="GPX 02 SIMPLIFYING", unit="trasa"):
-    geom: BaseGeometry = shape(feature["geometry"])
-    simplified = geom.simplify(0.0001, preserve_topology=False)
-    simplified_features.append(geojson.Feature(
-        geometry=mapping(simplified),
-        properties=feature["properties"]
-    ))
+    geom = shape(feature["geometry"])
+    simplified = geom.simplify(0.0001, preserve_topology=False) # Uproszczenie trasy do punktów co 10 metrów
+    features.append({
+        "geometry": simplified,
+        **feature["properties"]
+    })
 
-out = geojson.FeatureCollection(simplified_features)
+# Utwórz GeoDataFrame i zapisz w formacie GeoJSON
+gdf = gpd.GeoDataFrame(features, geometry="geometry", crs="EPSG:4326")
+gdf.to_file(output_file, driver="GeoJSON")
 
-with open(output_file, "w", encoding="utf-8") as f:
-    geojson.dump(out, f, indent=2, ensure_ascii=False)
-
-# Wyświetlenie absolutnej ścieżki zapisu
-abs_path = Path(output_file).resolve()
-print(f"✅ GPX 02 SIMPLIFYING - Output to: {abs_path}")
+print(f"✅ GPX 02 SIMPLIFYING - Output to: {Path(output_file).resolve()}")

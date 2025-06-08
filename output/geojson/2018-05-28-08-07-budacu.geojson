@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1825",
+    "nr": "1825",
     "date": "2018-05-28",
     "name": "Budacu",
     "mountains": "Muntii Bistritei",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-28-08-07-budacu-25306322",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-28-08-07-budacu-25306322",
     "photo_album_url": "https://photos.app.goo.gl/aQknELVstYuN7d4w1",
     "photo_stamp_url": "https://drive.google.com/open?id=1YVZ7OR6QttzTm88Rj66aMz5hm7aqrne7",
     "distance_km": 24.13,
     "ascent_m": 1382,
     "duration_h": 8.12,
-    "got_points": 37.95,
+    "got": "37.95",
     "got_total": 436.47,
     "accomodation": "Pârâul Pîntei Vila Teo",
     "trail_counter": "159",
     "exp_counter": "039",
     "lat": 47.1228,
     "lon": 25.6749,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

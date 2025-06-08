@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1615",
+    "nr": "1615",
     "date": "2016-06-27",
     "name": "Stoh",
     "mountains": "Marmarosy Czywczyny",
     "country": "UA, RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-06-27-06-09-stoh-17799655",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-06-27-06-09-stoh-17799655",
     "photo_album_url": "https://photos.app.goo.gl/dP21a9Nc9wP56Hqm2",
     "photo_stamp_url": "https://drive.google.com/open?id=1fmGKzt6ixhWPHYofhBU4ITNECbJKlu1q",
     "distance_km": 32.25,
     "ascent_m": 1074,
     "duration_h": 10.53,
-    "got_points": 42.99,
+    "got": "42.99",
     "got_total": 429.97,
     "accomodation": "Szybene Alina-Maria",
     "trail_counter": "043",
     "exp_counter": "010",
     "lat": 47.9683,
     "lon": 24.5632,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

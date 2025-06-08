@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1813",
+    "nr": "1813",
     "date": "2018-04-28",
     "name": "Rarau",
     "mountains": "Muntii Rarau",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-04-28-15-47-rarau-24387177",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-04-28-15-47-rarau-24387177",
     "photo_album_url": "https://photos.app.goo.gl/pOnoHpehv68sMuuG2",
     "photo_stamp_url": "https://drive.google.com/open?id=10fk6_hyGP6_xlRh4TrAztbrrj3Vnd00t",
     "distance_km": 4.04,
     "ascent_m": 218,
     "duration_h": 2.27,
-    "got_points": 6.22,
+    "got": "6.22",
     "got_total": 182.24,
     "accomodation": "Fundu Moldovei Casa Cristina",
     "trail_counter": "147",
     "exp_counter": "038",
     "lat": 47.456,
     "lon": 25.5724,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

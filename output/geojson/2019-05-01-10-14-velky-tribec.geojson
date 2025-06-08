@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1904",
+    "nr": "1904",
     "date": "2019-05-01",
     "name": "Velky Tribec",
     "mountains": "Tribec",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-05-01-10-14-velky-tribec-35945326",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-05-01-10-14-velky-tribec-35945326",
     "photo_album_url": "https://photos.app.goo.gl/wfWg6TQECAzmsQH98",
     "photo_stamp_url": "https://drive.google.com/open?id=1HR27SvyDwtL2iz1icibCxrRZxPyx54BJ",
     "distance_km": 8.66,
     "ascent_m": 488,
     "duration_h": 3.8,
-    "got_points": 13.54,
+    "got": "13.54",
     "got_total": 29.36,
     "accomodation": "Vyhne Cerveny dom",
     "trail_counter": "189",
     "exp_counter": "046",
     "lat": 48.4694,
     "lon": 18.2397,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, DS, MS",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

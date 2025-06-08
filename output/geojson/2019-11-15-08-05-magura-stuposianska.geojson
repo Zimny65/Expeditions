@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1955",
+    "nr": "1955",
     "date": "2019-11-15",
     "name": "Magura Stuposiańska",
     "mountains": "Bieszczady Zachodnie",
     "country": "PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-11-15-08-05-magura-stuposianska-43557210",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-11-15-08-05-magura-stuposianska-43557210",
     "photo_album_url": "https://photos.app.goo.gl/cF1pyLCyC5mWbdCz8",
     "photo_stamp_url": "https://drive.google.com/open?id=1PLg4GzEFGupe0Xiiw12QeElA5dcy1D0m",
     "distance_km": 18.81,
     "ascent_m": 584,
     "duration_h": 5.28,
-    "got_points": 24.65,
+    "got": "24.65",
     "got_total": 1025.81,
     "accomodation": "Smerek Niemczukówka",
     "trail_counter": "240",
     "exp_counter": "055",
     "lat": 49.1648,
     "lon": 22.6447,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

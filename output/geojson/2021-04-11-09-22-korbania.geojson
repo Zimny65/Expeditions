@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "2105",
+    "nr": "2105",
     "date": "2021-04-11",
     "name": "Korbania",
     "mountains": "Bieszczady",
     "country": "PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-04-11-09-22-korbania-70357960",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-04-11-09-22-korbania-70357960",
     "photo_album_url": "https://photos.app.goo.gl/f5sMR61dqXYDpFkR6",
     "photo_stamp_url": "",
     "distance_km": 26.17,
     "ascent_m": 876,
     "duration_h": 7.48,
-    "got_points": 34.93,
+    "got": "34.93",
     "got_total": 116.14,
     "accomodation": "Balnica Chatki u Oli",
     "trail_counter": "261",
     "exp_counter": "067",
     "lat": 49.284,
     "lon": 22.3704,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

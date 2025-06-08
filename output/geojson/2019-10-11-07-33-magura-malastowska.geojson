@@ -1,7 +1,14 @@
 {
   "type": "Feature",
   "properties": {
+    "nr": "1940",
+    "date": "2019-10-11",
     "name": "Magura Małastowska",
+    "mountains": "Beskid Niski",
+    "country": "PL",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-10-11-07-33-magura-malastowska-42437844",
+    "photo_album_url": "https://photos.app.goo.gl/U1iEGMgcNWXbi5pX7",
+    "photo_stamp_url": "https://drive.google.com/open?id=1YqrWzwoCSmZTihkYI8b7vR6jWj9dDi_b",
     "distance_km": 12.86,
     "ascent_m": 386,
     "duration_h": 4.03,
@@ -14,13 +21,6 @@
     "lon": 21.2227,
     "only_mountain": "1",
     "participants": "AM, BM",
-    "wikiloc_url": "https://photos.app.goo.gl/U1iEGMgcNWXbi5pX7",
-    "photo_album_url": "https://drive.google.com/open?id=1YqrWzwoCSmZTihkYI8b7vR6jWj9dDi_b",
-    "photo_stamp_url": "12.86",
-    "country": "PL",
-    "mountains": "Beskid Niski",
-    "date": "2019-10-11",
-    "trail_gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-10-11-07-33-magura-malastowska-42437844",
     "mapycz_gpx_url": ""
   },
   "geometry": {

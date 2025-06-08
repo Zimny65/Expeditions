@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1747",
+    "nr": "1747",
     "date": "2017-09-02",
     "name": "Pietrosul Bardaului",
     "mountains": "Muntii Maramuresului",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-09-02-07-34-pietrosul-bardaului-19521293",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-09-02-07-34-pietrosul-bardaului-19521293",
     "photo_album_url": "https://photos.app.goo.gl/wYLMd9OqtyHbwkZ53",
     "photo_stamp_url": "https://drive.google.com/open?id=1_RZ_C1oqINHLamBNHvrx_D3pGzZ1tPq5",
     "distance_km": 23.86,
     "ascent_m": 1407,
     "duration_h": 9.6,
-    "got_points": 37.93,
+    "got": "37.93",
     "got_total": 835.32,
     "accomodation": "Leordina Casa Simon",
     "trail_counter": "122",
     "exp_counter": "028",
     "lat": 47.8317,
     "lon": 24.6105,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

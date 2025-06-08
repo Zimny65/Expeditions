@@ -1,7 +1,14 @@
 {
   "type": "Feature",
   "properties": {
+    "nr": "2109",
+    "date": "2021-05-06",
     "name": "Jasło",
+    "mountains": "Bieszczady",
+    "country": "PL",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-05-06-08-02-jaslo-72350133",
+    "photo_album_url": "https://photos.app.goo.gl/s7pv3oWz6yKQWug26",
+    "photo_stamp_url": "",
     "distance_km": 16.55,
     "ascent_m": 799,
     "duration_h": 6.0,
@@ -14,13 +21,6 @@
     "lon": 22.3604,
     "only_mountain": "1",
     "participants": "AM, BM",
-    "wikiloc_url": "https://photos.app.goo.gl/s7pv3oWz6yKQWug26",
-    "photo_album_url": "",
-    "photo_stamp_url": "16.55",
-    "country": "PL",
-    "mountains": "Bieszczady",
-    "date": "2021-05-06",
-    "trail_gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-05-06-08-02-jaslo-72350133",
     "mapycz_gpx_url": ""
   },
   "geometry": {

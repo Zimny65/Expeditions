@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1906",
+    "nr": "1906",
     "date": "2019-05-02",
     "name": "Vtacnik",
     "mountains": "Vtacnik",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-05-02-10-38-vtacnik-35980836",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-05-02-10-38-vtacnik-35980836",
     "photo_album_url": "https://photos.app.goo.gl/AJLo3mhDsnkG3oGt7",
     "photo_stamp_url": "https://drive.google.com/open?id=1Cz980J_AO4zjCSi5Cjf7V6kK9ETQKFxR",
     "distance_km": 12.05,
     "ascent_m": 742,
     "duration_h": 5.72,
-    "got_points": 19.47,
+    "got": "19.47",
     "got_total": 58.41,
     "accomodation": "Vyhne Cerveny dom",
     "trail_counter": "191",
     "exp_counter": "046",
     "lat": 48.6247,
     "lon": 18.6356,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, DS, MS",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

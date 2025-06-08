@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1528",
+    "nr": "1528",
     "date": "2015-10-24",
     "name": "Romanka",
     "mountains": "Beskid Żywiecki",
     "country": "PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-10-24-09-55-romanka-17798703",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-10-24-09-55-romanka-17798703",
     "photo_album_url": "https://photos.app.goo.gl/EYmx6OLuX1fLrylK2",
     "photo_stamp_url": "https://drive.google.com/open?id=1qoyolUFiSXL2mlAtaNPPzifay2LmUZM_",
     "distance_km": 19.72,
     "ascent_m": 954,
     "duration_h": 6.88,
-    "got_points": 29.26,
+    "got": "29.26",
     "got_total": 816.33,
     "accomodation": "Dom Michałowice",
     "trail_counter": "028",
     "exp_counter": "007",
     "lat": 49.5608,
     "lon": 19.2418,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

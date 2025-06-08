@@ -1,7 +1,14 @@
 {
   "type": "Feature",
   "properties": {
+    "nr": "2115",
+    "date": "2021-05-14",
     "name": "Słonny",
+    "mountains": "Góry Sanocko-Turczańskie",
+    "country": "PL",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-05-14-07-54-slonny-72978851",
+    "photo_album_url": "https://photos.app.goo.gl/6f6hoHPgChU9qipaA",
+    "photo_stamp_url": "",
     "distance_km": 18.54,
     "ascent_m": 304,
     "duration_h": 4.27,
@@ -14,13 +21,6 @@
     "lon": 22.3672,
     "only_mountain": "1",
     "participants": "AM, BM",
-    "wikiloc_url": "https://photos.app.goo.gl/6f6hoHPgChU9qipaA",
-    "photo_album_url": "",
-    "photo_stamp_url": "18.54",
-    "country": "PL",
-    "mountains": "Góry Sanocko-Turczańskie",
-    "date": "2021-05-14",
-    "trail_gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-05-14-07-54-slonny-72978851",
     "mapycz_gpx_url": ""
   },
   "geometry": {

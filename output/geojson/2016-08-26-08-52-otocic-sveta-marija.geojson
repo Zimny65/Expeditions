@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1623",
+    "nr": "1623",
     "date": "2016-08-26",
     "name": "Otocic Sveta Marija",
     "mountains": "Mljet",
     "country": "CR",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-08-26-08-52-otocic-sveta-marija-17799693",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-08-26-08-52-otocic-sveta-marija-17799693",
     "photo_album_url": "https://photos.app.goo.gl/qPo3i6klM4qFeZ8A2",
     "photo_stamp_url": "https://drive.google.com/open?id=1Zkjq5HIsE0rH3t7LFyTMx5jv4CvbeGRw",
     "distance_km": 12.84,
     "ascent_m": 189,
     "duration_h": 4.27,
-    "got_points": 14.73,
+    "got": "14.73",
     "got_total": 625.92,
     "accomodation": "Saplunara Apartments Pitarević",
     "trail_counter": "051",
     "exp_counter": "011",
     "lat": 42.7785,
     "lon": 17.3678,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

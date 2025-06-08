@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1614",
+    "nr": "1614",
     "date": "2016-06-26",
     "name": "Pop Iwan",
     "mountains": "Czarnohora",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-06-26-05-00-pop-iwan-17799651",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-06-26-05-00-pop-iwan-17799651",
     "photo_album_url": "https://photos.app.goo.gl/4qEJRU3AGHgdth3p1",
     "photo_stamp_url": "https://drive.google.com/open?id=1aNzwDst3QNv6KMT7pNlUTJCqoMeOoAGI",
     "distance_km": 24.27,
     "ascent_m": 1206,
     "duration_h": 10.38,
-    "got_points": 36.33,
+    "got": "36.33",
     "got_total": 386.98,
     "accomodation": "Bystrec Chatka u Kuby",
     "trail_counter": "042",
     "exp_counter": "010",
     "lat": 48.0471,
     "lon": 24.6274,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

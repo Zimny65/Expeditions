@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "2131",
+    "nr": "2131",
     "date": "2021-08-20",
     "name": "Klenovsky Vepor",
     "mountains": "Rudawy Weporskie",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-08-20-10-32-klenovsky-vepor-81574049",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-08-20-10-32-klenovsky-vepor-81574049",
     "photo_album_url": "https://photos.app.goo.gl/LSLqDmr9meZHxbKB9",
     "photo_stamp_url": "",
     "distance_km": 25.14,
     "ascent_m": 1056,
     "duration_h": 7.43,
-    "got_points": 35.7,
+    "got": "35.70",
     "got_total": 764.33,
     "accomodation": "Apartmany Bystra Chopok",
     "trail_counter": "287",
     "exp_counter": "072",
     "lat": 48.6884,
     "lon": 19.7694,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

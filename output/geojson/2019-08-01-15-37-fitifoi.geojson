@@ -1,7 +1,14 @@
 {
   "type": "Feature",
   "properties": {
+    "nr": "1920",
+    "date": "2019-08-01",
     "name": "Fetifoiu",
+    "mountains": "Muntii Fetifoiu",
+    "country": "RO",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-08-01-15-37-fitifoi-39361539",
+    "photo_album_url": "https://photos.app.goo.gl/BZ5vbu2P588xGDqr7",
+    "photo_stamp_url": "https://drive.google.com/open?id=1PJaPCe3ygsh5ZS4begQVNlXO3VWmKYcv",
     "distance_km": 1.56,
     "ascent_m": 151,
     "duration_h": 0.67,
@@ -14,13 +21,6 @@
     "lon": 25.5381,
     "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "wikiloc_url": "https://photos.app.goo.gl/BZ5vbu2P588xGDqr7",
-    "photo_album_url": "https://drive.google.com/open?id=1PJaPCe3ygsh5ZS4begQVNlXO3VWmKYcv",
-    "photo_stamp_url": "1.56",
-    "country": "RO",
-    "mountains": "Muntii Fetifoiu",
-    "date": "2019-08-01",
-    "trail_gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-08-01-15-37-fitifoi-39361539",
     "mapycz_gpx_url": ""
   },
   "geometry": {

@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1839",
+    "nr": "1839",
     "date": "2018-09-03",
     "name": "Ineu",
     "mountains": "Muntii Rodnei",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-09-03-12-11-ineu-28312731",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-09-03-12-11-ineu-28312731",
     "photo_album_url": "https://photos.app.goo.gl/bSxQ6XJ2byKiRk3y9",
     "photo_stamp_url": "https://drive.google.com/open?id=1h2XryT7dIqd7jplWlCJiuKdGCwENNy7F",
     "distance_km": 25.17,
     "ascent_m": 1265,
     "duration_h": 27.55,
-    "got_points": 37.82,
+    "got": "37.82",
     "got_total": 803.88,
     "accomodation": "Moisei Casa La Bella Vista",
     "trail_counter": "173",
     "exp_counter": "042",
     "lat": 47.5258,
     "lon": 24.8835,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM, DS, BS, JS",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

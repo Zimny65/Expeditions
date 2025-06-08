@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1834",
+    "nr": "1834",
     "date": "2018-08-28",
     "name": "Cheile Bicazului",
     "mountains": "Muntii Hasmas",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-08-28-11-26-cheile-bicazului-28079449",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-08-28-11-26-cheile-bicazului-28079449",
     "photo_album_url": "https://photos.app.goo.gl/MiJJj2h5BZhtoZiy5",
     "photo_stamp_url": "https://drive.google.com/open?id=1-3sAdhajApB-L890u6oWb6zfSaQZSrMG",
     "distance_km": 6.26,
     "ascent_m": 445,
     "duration_h": 3.53,
-    "got_points": 10.71,
+    "got": "10.71",
     "got_total": 651.85,
     "accomodation": "Lăzarea Szárhegyi Pihenő",
     "trail_counter": "168",
     "exp_counter": "042",
     "lat": 46.8001,
     "lon": 25.7933,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM, DS, MS, BS, JS",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

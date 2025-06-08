@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1515",
+    "nr": "1515",
     "date": "2015-07-28",
     "name": "Grofa",
     "mountains": "Gorgany Zachodnie",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-28-09-08-grofa-17798639",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-28-09-08-grofa-17798639",
     "photo_album_url": "https://photos.app.goo.gl/DPini0gr0BrT6sh33",
     "photo_stamp_url": "https://drive.google.com/open?id=18lB2vZ985_S773Eu9disYk2L4v55-YN0",
     "distance_km": 9.41,
     "ascent_m": 868,
     "duration_h": 5.17,
-    "got_points": 18.09,
+    "got": "18.09",
     "got_total": 427.47,
     "accomodation": "Osmołoda Vilni Vitri",
     "trail_counter": "015",
     "exp_counter": "003",
     "lat": 48.6199,
     "lon": 23.9327,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

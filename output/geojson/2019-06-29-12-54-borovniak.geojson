@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1914",
+    "nr": "1914",
     "date": "2019-06-29",
     "name": "Borovniak",
     "mountains": "Slovensky Raj",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-06-29-12-54-borovniak-38154703",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-06-29-12-54-borovniak-38154703",
     "photo_album_url": "https://photos.app.goo.gl/8dp5ApZS8nMJHKZD6",
     "photo_stamp_url": "https://drive.google.com/open?id=1W9BrZeWfBt5rRX1DPbTh8AWYj76IE8GH",
     "distance_km": 11.92,
     "ascent_m": 359,
     "duration_h": 4.42,
-    "got_points": 15.51,
+    "got": "15.51",
     "got_total": 131.95,
     "accomodation": "Kravany MI-TATRY",
     "trail_counter": "199",
     "exp_counter": "048",
     "lat": 48.8597,
     "lon": 20.2586,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

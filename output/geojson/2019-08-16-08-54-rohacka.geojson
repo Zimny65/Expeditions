@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1925",
+    "nr": "1925",
     "date": "2019-08-16",
     "name": "Rohacka",
     "mountains": "Cierna Hora",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-08-16-08-54-rohacka-40035288",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-08-16-08-54-rohacka-40035288",
     "photo_album_url": "https://photos.app.goo.gl/v6ZuXQn4yh1uBnC96",
     "photo_stamp_url": "https://drive.google.com/open?id=1a8fWnmYgkX6e-RNA3gOBBFhHhayevc43",
     "distance_km": 6.68,
     "ascent_m": 442,
     "duration_h": 2.6,
-    "got_points": 11.1,
+    "got": "11.10",
     "got_total": 369.55,
     "accomodation": "Lačnov Chalupa Salamandra",
     "trail_counter": "210",
     "exp_counter": "050",
     "lat": 48.9242,
     "lon": 21.0125,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

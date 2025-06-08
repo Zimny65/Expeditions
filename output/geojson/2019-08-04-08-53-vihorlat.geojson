@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1923",
+    "nr": "1923",
     "date": "2019-08-04",
     "name": "Vihorlat",
     "mountains": "Vihorlatske Vrchy",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-08-04-08-53-vihorlat-39533354",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-08-04-08-53-vihorlat-39533354",
     "photo_album_url": "https://photos.app.goo.gl/eU4ycEjoA62URjXD8",
     "photo_stamp_url": "https://drive.google.com/open?id=1uQjqeD425hi96ZQpLPvGcR8wHSEM0IxY",
     "distance_km": 19.71,
     "ascent_m": 911,
     "duration_h": 6.33,
-    "got_points": 28.82,
+    "got": "28.82",
     "got_total": 329.57,
     "accomodation": "Kisvarda Kristaly",
     "trail_counter": "208",
     "exp_counter": "049",
     "lat": 48.8915,
     "lon": 22.1137,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

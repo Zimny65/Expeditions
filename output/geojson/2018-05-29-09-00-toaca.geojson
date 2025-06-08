@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1826",
+    "nr": "1826",
     "date": "2018-05-29",
     "name": "Toaca",
     "mountains": "Masivul Ceahlau",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-29-09-00-toaca-25332546",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-29-09-00-toaca-25332546",
     "photo_album_url": "https://photos.app.goo.gl/Sum8SzwCBB42s45i2",
     "photo_stamp_url": "https://drive.google.com/open?id=1nGxsP8kPaWWMiW8x5Ho11qPjP-tO1EqD",
     "distance_km": 13.32,
     "ascent_m": 1178,
     "duration_h": 7.45,
-    "got_points": 25.1,
+    "got": "25.10",
     "got_total": 461.57,
     "accomodation": "Pârâul Pîntei Vila Teo",
     "trail_counter": "160",
     "exp_counter": "039",
     "lat": 46.9779,
     "lon": 25.9497,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

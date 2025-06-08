@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1514",
+    "nr": "1514",
     "date": "2015-07-27",
     "name": "Wysoka Ihrowiec",
     "mountains": "Gorgany Centralne",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-27-07-53-wysoka-ihrowiec-17798636",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-27-07-53-wysoka-ihrowiec-17798636",
     "photo_album_url": "https://photos.app.goo.gl/JMjkFxkX7lh1ECsq2",
     "photo_stamp_url": "https://drive.google.com/open?id=1BTyhZRIVBQAmujWxF836C-5Xjf-yuMGj",
     "distance_km": 24.77,
     "ascent_m": 1170,
     "duration_h": 10.45,
-    "got_points": 36.47,
+    "got": "36.47",
     "got_total": 409.38,
     "accomodation": "Osmołoda Vilni Vitri",
     "trail_counter": "014",
     "exp_counter": "003",
     "lat": 48.6082,
     "lon": 24.0955,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

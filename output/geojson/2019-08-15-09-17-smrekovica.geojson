@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1924",
+    "nr": "1924",
     "date": "2019-08-15",
     "name": "Smrekovica",
     "mountains": "Branisko",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-08-15-09-17-smrekovica-39994320",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-08-15-09-17-smrekovica-39994320",
     "photo_album_url": "https://photos.app.goo.gl/i2wqSA3yvUgN54kY8",
     "photo_stamp_url": "https://drive.google.com/open?id=1P8Y6r2g-f1p-wwJTWSiq3MDPdY_WVGHQ",
     "distance_km": 19.96,
     "ascent_m": 892,
     "duration_h": 7.08,
-    "got_points": 28.88,
+    "got": "28.88",
     "got_total": 358.45,
     "accomodation": "Lačnov Chalupa Salamandra",
     "trail_counter": "209",
     "exp_counter": "050",
     "lat": 49.0464,
     "lon": 20.8711,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

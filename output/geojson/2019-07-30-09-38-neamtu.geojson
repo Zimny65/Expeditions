@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1918",
+    "nr": "1918",
     "date": "2019-07-30",
     "name": "Neamtu",
     "mountains": "Muntii Baiului",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-07-30-09-38-neamtu-39280487",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-07-30-09-38-neamtu-39280487",
     "photo_album_url": "https://photos.app.goo.gl/TVy3xTezxemX9VDr7",
     "photo_stamp_url": "https://drive.google.com/open?id=1NvdKtMcqIAdVjgLrkKhCnZdo7AnivV3y",
     "distance_km": 18.3,
     "ascent_m": 978,
     "duration_h": 6.98,
-    "got_points": 28.08,
+    "got": "28.08",
     "got_total": 246.46,
     "accomodation": "Brasov DALY",
     "trail_counter": "203",
     "exp_counter": "049",
     "lat": 45.4683,
     "lon": 25.6946,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

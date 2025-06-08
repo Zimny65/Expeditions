@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1820",
+    "nr": "1820",
     "date": "2018-05-04",
     "name": "Vaju Mare",
     "mountains": "Obcina Feredeului",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-04-08-12-vaju-mare-24577297",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-04-08-12-vaju-mare-24577297",
     "photo_album_url": "https://photos.app.goo.gl/f6YbwxnfNRsQgImj2",
     "photo_stamp_url": "https://drive.google.com/open?id=1VIZ5VZZLV_o4sONUhIJPj8DyOuQ6srIh",
     "distance_km": 12.02,
     "ascent_m": 501,
     "duration_h": 4.97,
-    "got_points": 17.03,
+    "got": "17.03",
     "got_total": 322.1,
     "accomodation": "Fundu Moldovei Casa Cristina",
     "trail_counter": "154",
     "exp_counter": "038",
     "lat": 47.7183,
     "lon": 25.2852,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

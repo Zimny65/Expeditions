@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "2106",
+    "nr": "2106",
     "date": "2021-04-12",
     "name": "Chryszczata",
     "mountains": "Bieszczady",
     "country": "PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-04-12-08-31-chryszczata-70421576",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-04-12-08-31-chryszczata-70421576",
     "photo_album_url": "https://photos.app.goo.gl/vvEaLRhb3FDdFas4A",
     "photo_stamp_url": "",
     "distance_km": 32.99,
     "ascent_m": 886,
     "duration_h": 8.13,
-    "got_points": 41.85,
+    "got": "41.85",
     "got_total": 157.99,
     "accomodation": "Balnica Chatki u Oli",
     "trail_counter": "262",
     "exp_counter": "067",
     "lat": 49.3057,
     "lon": 22.188,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

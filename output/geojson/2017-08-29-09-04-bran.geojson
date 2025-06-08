@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1743",
+    "nr": "1743",
     "date": "2017-08-29",
     "name": "Bran",
     "mountains": "Muntii Tibles",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-08-29-09-04-bran-19460989",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-08-29-09-04-bran-19460989",
     "photo_album_url": "https://photos.app.goo.gl/Ln7PlZ1PCWFtlmSz1",
     "photo_stamp_url": "https://drive.google.com/open?id=16UHabVyiroMLJ0Z3Ch8u6ZIlJC7tlPt6",
     "distance_km": 18.99,
     "ascent_m": 1315,
     "duration_h": 8.0,
-    "got_points": 32.14,
+    "got": "32.14",
     "got_total": 721.45,
     "accomodation": "Mogosza Cabana Pintea",
     "trail_counter": "118",
     "exp_counter": "028",
     "lat": 47.5161,
     "lon": 24.2694,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

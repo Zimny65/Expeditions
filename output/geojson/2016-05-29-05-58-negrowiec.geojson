@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1605",
+    "nr": "1605",
     "date": "2016-05-29",
     "name": "Negrowiec",
     "mountains": "Gorgany Synewirskie",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-05-29-05-58-negrowiec-17799555",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-05-29-05-58-negrowiec-17799555",
     "photo_album_url": "https://photos.app.goo.gl/okjImyZ6Hblsyque2",
     "photo_stamp_url": "https://drive.google.com/open?id=1EMJBRiwz_ZpVFR23UP7Gw75SAhWKXqtT",
     "distance_km": 25.02,
     "ascent_m": 1220,
     "duration_h": 8.97,
-    "got_points": 37.22,
+    "got": "37.22",
     "got_total": 139.25,
     "accomodation": "Synewir Gostyniy Dvir Synevir",
     "trail_counter": "033",
     "exp_counter": "009",
     "lat": 48.4981,
     "lon": 23.715,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1835",
+    "nr": "1835",
     "date": "2018-08-29",
     "name": "Harghita Madaras",
     "mountains": "Muntii Harghita",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-08-29-08-36-harghita-madaras-28110837",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-08-29-08-36-harghita-madaras-28110837",
     "photo_album_url": "https://photos.app.goo.gl/5mBV9XWDUqFMDgK49",
     "photo_stamp_url": "https://drive.google.com/open?id=1zfJG708wGjDTZ_Q6XL_tvF5iWSLNEFPh",
     "distance_km": 22.47,
     "ascent_m": 957,
     "duration_h": 6.08,
-    "got_points": 32.04,
+    "got": "32.04",
     "got_total": 683.89,
     "accomodation": "Lăzarea Szárhegyi Pihenő",
     "trail_counter": "169",
     "exp_counter": "042",
     "lat": 46.4536,
     "lon": 25.5821,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1522",
+    "nr": "1522",
     "date": "2015-09-10",
     "name": "Czarna Repa",
     "mountains": "Bieszczady Wschodnie",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-09-10-07-18-czarna-repa-17798657",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-09-10-07-18-czarna-repa-17798657",
     "photo_album_url": "https://photos.app.goo.gl/8cvXGVLVc07eKrHU2",
     "photo_stamp_url": "https://drive.google.com/open?id=1Ipmy_HToNVMgtQ4OB2kVYhqN9letRSM0",
     "distance_km": 18.22,
     "ascent_m": 716,
     "duration_h": 8.25,
-    "got_points": 25.38,
+    "got": "25.38",
     "got_total": 654.08,
     "accomodation": "Wołosianka Zahar Berkut",
     "trail_counter": "022",
     "exp_counter": "004",
     "lat": 48.7303,
     "lon": 23.5188,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

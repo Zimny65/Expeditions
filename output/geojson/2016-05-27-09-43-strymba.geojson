@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1603",
+    "nr": "1603",
     "date": "2016-05-27",
     "name": "Strymba",
     "mountains": "Gorgany Synewirskie",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-05-27-09-43-strymba-17799540",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-05-27-09-43-strymba-17799540",
     "photo_album_url": "https://photos.app.goo.gl/e2vY7Jpk7YbWQSFq1",
     "photo_stamp_url": "https://drive.google.com/open?id=1S9mw7PBr-jLjR5z__2dPRCa8Lz3E8jbF",
     "distance_km": 16.16,
     "ascent_m": 1134,
     "duration_h": 8.45,
-    "got_points": 27.5,
+    "got": "27.50",
     "got_total": 75.25,
     "accomodation": "Synewir Gostyniy Dvir Synevir",
     "trail_counter": "031",
     "exp_counter": "009",
     "lat": 48.4383,
     "lon": 23.801,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

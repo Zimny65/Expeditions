@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1821",
+    "nr": "1821",
     "date": "2018-05-05",
     "name": "Heniul Mare",
     "mountains": "Muntii Bargau",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-05-06-24-heniul-mare-24659215",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-05-06-24-heniul-mare-24659215",
     "photo_album_url": "https://photos.app.goo.gl/vIa9b0cbY6seLdUh1",
     "photo_stamp_url": "https://drive.google.com/open?id=1eERfJKjIGI3fC35WGS1OkaN43lVoG1Xr",
     "distance_km": 20.38,
     "ascent_m": 1210,
     "duration_h": 7.97,
-    "got_points": 32.48,
+    "got": "32.48",
     "got_total": 354.58,
     "accomodation": "Fundu Moldovei Casa Cristina",
     "trail_counter": "155",
     "exp_counter": "038",
     "lat": 47.2775,
     "lon": 24.7352,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

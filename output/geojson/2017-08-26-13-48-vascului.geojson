@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1740",
+    "nr": "1740",
     "date": "2017-08-26",
     "name": "Vascului",
     "mountains": "Muntii Oasului",
     "country": "RO, UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-08-26-13-48-vascului-19422795",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-08-26-13-48-vascului-19422795",
     "photo_album_url": "https://photos.app.goo.gl/2FZtDMnHSCqdbI0I3",
     "photo_stamp_url": "https://drive.google.com/open?id=18yJOFZ4Ac8T0ydQofyvh9PXO60SqkEI6",
     "distance_km": 11.4,
     "ascent_m": 638,
     "duration_h": 4.88,
-    "got_points": 17.78,
+    "got": "17.78",
     "got_total": 651.3,
     "accomodation": "Mogosza Cabana Pintea",
     "trail_counter": "115",
     "exp_counter": "028",
     "lat": 47.9901,
     "lon": 23.4108,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

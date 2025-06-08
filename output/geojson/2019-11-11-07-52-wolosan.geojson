@@ -1,7 +1,14 @@
 {
   "type": "Feature",
   "properties": {
+    "nr": "1951",
+    "date": "2019-11-11",
     "name": "Wołosań",
+    "mountains": "Bieszczady Zachodnie",
+    "country": "PL",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-11-11-07-52-wolosan-43456938",
+    "photo_album_url": "https://photos.app.goo.gl/ieLTND6336p5otgV6",
+    "photo_stamp_url": "https://drive.google.com/open?id=1Ik7ULdt6C65oI2XK0MPxxbhLDYxoosxS",
     "distance_km": 23.07,
     "ascent_m": 749,
     "duration_h": 6.13,
@@ -14,13 +21,6 @@
     "lon": 22.2533,
     "only_mountain": "1",
     "participants": "AM, BM",
-    "wikiloc_url": "https://photos.app.goo.gl/ieLTND6336p5otgV6",
-    "photo_album_url": "https://drive.google.com/open?id=1Ik7ULdt6C65oI2XK0MPxxbhLDYxoosxS",
-    "photo_stamp_url": "23.07",
-    "country": "PL",
-    "mountains": "Bieszczady Zachodnie",
-    "date": "2019-11-11",
-    "trail_gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-11-11-07-52-wolosan-43456938",
     "mapycz_gpx_url": ""
   },
   "geometry": {

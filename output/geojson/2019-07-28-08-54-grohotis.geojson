@@ -1,7 +1,14 @@
 {
   "type": "Feature",
   "properties": {
+    "nr": "1916",
+    "date": "2019-07-28",
     "name": "Grohotisul",
+    "mountains": "Muntii Grohotis",
+    "country": "RO",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-07-28-08-54-grohotis-39201327",
+    "photo_album_url": "https://photos.app.goo.gl/cSLdBdue7ob3KsEf8",
+    "photo_stamp_url": "https://drive.google.com/open?id=1Xwg1GkSmURkeEjZ2fKP3L035fptcv1qI",
     "distance_km": 19.91,
     "ascent_m": 767,
     "duration_h": 6.85,
@@ -14,13 +21,6 @@
     "lon": 25.8643,
     "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "wikiloc_url": "https://photos.app.goo.gl/cSLdBdue7ob3KsEf8",
-    "photo_album_url": "https://drive.google.com/open?id=1Xwg1GkSmURkeEjZ2fKP3L035fptcv1qI",
-    "photo_stamp_url": "19.91",
-    "country": "RO",
-    "mountains": "Muntii Grohotis",
-    "date": "2019-07-28",
-    "trail_gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-07-28-08-54-grohotis-39201327",
     "mapycz_gpx_url": ""
   },
   "geometry": {

@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1510",
+    "nr": "1510",
     "date": "2015-07-20",
     "name": "Gorgan Ilemski",
     "mountains": "Gorgany Zachodnie",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-20-11-44-gorgan-ilemski-17798628",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2015-07-20-11-44-gorgan-ilemski-17798628",
     "photo_album_url": "https://photos.app.goo.gl/6tZirnf1Yh2X7BKJ3",
     "photo_stamp_url": "https://drive.google.com/open?id=1ZMr0iBZHb0qT3VhpLVL88I3Gp2AFZ_uY",
     "distance_km": 25.88,
     "ascent_m": 1218,
     "duration_h": 9.9,
-    "got_points": 38.06,
+    "got": "38.06",
     "got_total": 271.59,
     "accomodation": "Ludwikówka Medved",
     "trail_counter": "010",
     "exp_counter": "003",
     "lat": 48.7405,
     "lon": 23.8585,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

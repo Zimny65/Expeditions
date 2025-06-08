@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1741",
+    "nr": "1741",
     "date": "2017-08-27",
     "name": "Ignis",
     "mountains": "Muntii Ignis",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-08-27-10-19-ignis-19423055",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-08-27-10-19-ignis-19423055",
     "photo_album_url": "https://photos.app.goo.gl/erhG2VVhSiFKd2Vn2",
     "photo_stamp_url": "https://drive.google.com/open?id=1uLPU6-l4eNzVMJ1DrR2OQDQzBmhvJPNW",
     "distance_km": 11.62,
     "ascent_m": 399,
     "duration_h": 3.85,
-    "got_points": 15.61,
+    "got": "15.61",
     "got_total": 666.91,
     "accomodation": "Mogosza Cabana Pintea",
     "trail_counter": "116",
     "exp_counter": "028",
     "lat": 47.7325,
     "lon": 23.6728,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1818",
+    "nr": "1818",
     "date": "2018-05-02",
     "name": "Lucina",
     "mountains": "Obcina Mestecanisului",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-02-08-39-lucina-24530584",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-02-08-39-lucina-24530584",
     "photo_album_url": "https://photos.app.goo.gl/rcCvhTOm7oZf0Tqp1",
     "photo_stamp_url": "https://drive.google.com/open?id=1pDbMQrXdxmO3cNryGfjBPx2W9dsGpsqf",
     "distance_km": 14.45,
     "ascent_m": 627,
     "duration_h": 5.95,
-    "got_points": 20.72,
+    "got": "20.72",
     "got_total": 288.64,
     "accomodation": "Fundu Moldovei Casa Cristina",
     "trail_counter": "152",
     "exp_counter": "038",
     "lat": 47.6885,
     "lon": 25.1587,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

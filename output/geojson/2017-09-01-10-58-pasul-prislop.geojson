@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1746",
+    "nr": "1746",
     "date": "2017-09-01",
     "name": "Pasul Prislop",
     "mountains": "Muntii Maramuresului",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-09-01-10-58-pasul-prislop-19505201",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-09-01-10-58-pasul-prislop-19505201",
     "photo_album_url": "https://photos.app.goo.gl/bOiU7viUTTanbALy2",
     "photo_stamp_url": "https://drive.google.com/open?id=1C4xiALmcewkUMCcNjzEDFL1nL4ofPubJ",
     "distance_km": 15.33,
     "ascent_m": 530,
     "duration_h": 6.03,
-    "got_points": 20.63,
+    "got": "20.63",
     "got_total": 797.39,
     "accomodation": "Leordina Casa Simon",
     "trail_counter": "121",
     "exp_counter": "028",
     "lat": 47.6089,
     "lon": 24.8557,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

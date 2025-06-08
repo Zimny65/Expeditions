@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1842",
+    "nr": "1842",
     "date": "2018-09-08",
     "name": "Piecky",
     "mountains": "Slovensky Raj",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-09-08-10-27-piecky-28427931",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-09-08-10-27-piecky-28427931",
     "photo_album_url": "https://photos.app.goo.gl/xc5i675LrMUFqCcc6",
     "photo_stamp_url": "https://drive.google.com/open?id=1Be5s7qX2AMnU8qZq9EArjC92UaxDEGMA",
     "distance_km": 10.87,
     "ascent_m": 476,
     "duration_h": 4.62,
-    "got_points": 15.63,
+    "got": "15.63",
     "got_total": 865.87,
     "accomodation": "Pikovce Kamenný dom",
     "trail_counter": "176",
     "exp_counter": "042",
     "lat": 48.937,
     "lon": 20.363,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM, DS, MS, BS, JS",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

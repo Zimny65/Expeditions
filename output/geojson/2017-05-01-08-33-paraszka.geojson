@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1706",
+    "nr": "1706",
     "date": "2017-05-01",
     "name": "Paraszka",
     "mountains": "Beskidy Skolskie",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-05-01-08-33-paraszka-17800905",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2017-05-01-08-33-paraszka-17800905",
     "photo_album_url": "https://photos.app.goo.gl/5o1wfIoI8YfHEkjw1",
     "photo_stamp_url": "https://drive.google.com/open?id=1PX7ulplMsLJwickHyDk0jTVNCWlsMuo_",
     "distance_km": 19.16,
     "ascent_m": 1074,
     "duration_h": 8.77,
-    "got_points": 29.9,
+    "got": "29.90",
     "got_total": 114.91,
     "accomodation": "Skole Pid Dubom",
     "trail_counter": "081",
     "exp_counter": "021",
     "lat": 49.0699,
     "lon": 23.4154,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, AG, MG, ŁG",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

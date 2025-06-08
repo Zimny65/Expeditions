@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1829",
+    "nr": "1829",
     "date": "2018-06-01",
     "name": "Pietrosul",
     "mountains": "Muntii Rodnei",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-06-01-06-27-pietrosul-25397333",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-06-01-06-27-pietrosul-25397333",
     "photo_album_url": "https://photos.app.goo.gl/GdPGE2sfDQcDZnX93",
     "photo_stamp_url": "https://drive.google.com/open?id=1Z58ylATBf3c9_aQjKd7LJRJSZeqMJU4J",
     "distance_km": 14.69,
     "ascent_m": 1332,
     "duration_h": 9.02,
-    "got_points": 28.01,
+    "got": "28.01",
     "got_total": 557.3,
     "accomodation": "Borşa Vila Alma",
     "trail_counter": "163",
     "exp_counter": "039",
     "lat": 47.5973,
     "lon": 24.6335,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

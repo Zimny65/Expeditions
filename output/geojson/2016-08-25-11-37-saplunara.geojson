@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1622",
+    "nr": "1622",
     "date": "2016-08-25",
     "name": "Saplunara",
     "mountains": "Mljet",
     "country": "CR",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-08-25-11-37-saplunara-17799691",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-08-25-11-37-saplunara-17799691",
     "photo_album_url": "https://photos.app.goo.gl/JXw3FZ4xDeC6ocUF2",
     "photo_stamp_url": "https://drive.google.com/open?id=17LwcU14uMk_wgJxdb159FtWLiypYrthP",
     "distance_km": 5.3,
     "ascent_m": 211,
     "duration_h": 4.47,
-    "got_points": 7.41,
+    "got": "7.41",
     "got_total": 611.19,
     "accomodation": "Saplunara Apartments Pitarević",
     "trail_counter": "050",
     "exp_counter": "011",
     "lat": 42.6907,
     "lon": 17.7398,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

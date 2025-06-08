@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1827",
+    "nr": "1827",
     "date": "2018-05-30",
     "name": "Pietrosul Calimanilor",
     "mountains": "Muntii Calimani",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-30-08-41-pietrosul-calimanilor-25352737",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-30-08-41-pietrosul-calimanilor-25352737",
     "photo_album_url": "https://photos.app.goo.gl/hGiUGH0jC1D98BOH3",
     "photo_stamp_url": "https://drive.google.com/open?id=1zLIRS7G4ym1J2CoGFghMdqTkA2X0nsSX",
     "distance_km": 24.11,
     "ascent_m": 1090,
     "duration_h": 9.08,
-    "got_points": 35.01,
+    "got": "35.01",
     "got_total": 496.58,
     "accomodation": "Vatra Dornei Casa Dar&And",
     "trail_counter": "161",
     "exp_counter": "039",
     "lat": 47.125,
     "lon": 25.1855,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

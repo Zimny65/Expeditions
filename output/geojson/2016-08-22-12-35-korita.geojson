@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1619",
+    "nr": "1619",
     "date": "2016-08-22",
     "name": "Korita",
     "mountains": "Mljet",
     "country": "CR",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-08-22-12-35-korita-17799672",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-08-22-12-35-korita-17799672",
     "photo_album_url": "https://photos.app.goo.gl/QUH60HtC27na16Wa2",
     "photo_stamp_url": "https://drive.google.com/open?id=1GrGmLyTaeX6P0XIVIcZOH2lTPrF37tx4",
     "distance_km": 18.05,
     "ascent_m": 664,
     "duration_h": 6.88,
-    "got_points": 24.69,
+    "got": "24.69",
     "got_total": 574.12,
     "accomodation": "Saplunara Apartments Pitarević",
     "trail_counter": "047",
     "exp_counter": "011",
     "lat": 42.7082,
     "lon": 17.7249,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM, MK, ŁK, KK, SK, GK, AK, RK, MS, JS",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

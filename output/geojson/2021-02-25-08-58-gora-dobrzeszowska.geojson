@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "2101",
+    "nr": "2101",
     "date": "2021-02-25",
     "name": "Góra Dobrzeszowska",
     "mountains": "Góry Świętokrzyskie",
     "country": "PL",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-02-25-08-58-gora-dobrzeszowska-66560932",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2021-02-25-08-58-gora-dobrzeszowska-66560932",
     "photo_album_url": "https://photos.app.goo.gl/1pwtm9mj5foKP5Fp9",
     "photo_stamp_url": "",
     "distance_km": 19.7,
     "ascent_m": 232,
     "duration_h": 5.2,
-    "got_points": 22.02,
+    "got": "22.02",
     "got_total": 22.02,
     "accomodation": "Dom Michałowice",
     "trail_counter": "257",
     "exp_counter": "065",
     "lat": 50.9845,
     "lon": 20.3048,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

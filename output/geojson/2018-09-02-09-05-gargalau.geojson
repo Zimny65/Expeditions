@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1838",
+    "nr": "1838",
     "date": "2018-09-02",
     "name": "Gargalau",
     "mountains": "Muntii Rodnei",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-09-02-09-05-gargalau-28251965",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-09-02-09-05-gargalau-28251965",
     "photo_album_url": "https://photos.app.goo.gl/X5QauWMc2wwbwFtE8",
     "photo_stamp_url": "https://drive.google.com/open?id=1xQHkVt2pFIb7X4bPLE9Ogm-oQGpqRtSk",
     "distance_km": 19.85,
     "ascent_m": 794,
     "duration_h": 7.65,
-    "got_points": 27.79,
+    "got": "27.79",
     "got_total": 766.06,
     "accomodation": "Moisei Casa La Bella Vista",
     "trail_counter": "172",
     "exp_counter": "042",
     "lat": 47.564,
     "lon": 24.8124,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM, DS, BS, JS",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

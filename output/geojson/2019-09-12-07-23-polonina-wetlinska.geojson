@@ -1,7 +1,14 @@
 {
   "type": "Feature",
   "properties": {
+    "nr": "1932",
+    "date": "2019-09-12",
     "name": "Połonina Wetlińska",
+    "mountains": "Bieszczady Zachodnie",
+    "country": "PL",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-09-12-07-23-polonina-wetlinska-41182533",
+    "photo_album_url": "https://photos.app.goo.gl/8GziwR4HHhmxYXhd8",
+    "photo_stamp_url": "https://drive.google.com/open?id=1L3VYmNQb-8aEOzqdfOOjB66-YH9tQh-G",
     "distance_km": 28.78,
     "ascent_m": 1100,
     "duration_h": 9.88,
@@ -14,13 +21,6 @@
     "lon": 22.5281,
     "only_mountain": "1",
     "participants": "AM, BM",
-    "wikiloc_url": "https://photos.app.goo.gl/8GziwR4HHhmxYXhd8",
-    "photo_album_url": "https://drive.google.com/open?id=1L3VYmNQb-8aEOzqdfOOjB66-YH9tQh-G",
-    "photo_stamp_url": "28.78",
-    "country": "PL",
-    "mountains": "Bieszczady Zachodnie",
-    "date": "2019-09-12",
-    "trail_gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2019-09-12-07-23-polonina-wetlinska-41182533",
     "mapycz_gpx_url": ""
   },
   "geometry": {

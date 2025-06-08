@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1613",
+    "nr": "1613",
     "date": "2016-06-25",
     "name": "Brebenieskul",
     "mountains": "Czarnohora",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-06-25-04-09-brebenieskul-17799648",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-06-25-04-09-brebenieskul-17799648",
     "photo_album_url": "https://photos.app.goo.gl/gk5Q0sqNgQe7jVdy2",
     "photo_stamp_url": "https://drive.google.com/open?id=160QCEUMV9QNEsH9N2_iDnvrivcF7dmCA",
     "distance_km": 23.96,
     "ascent_m": 1536,
     "duration_h": 12.17,
-    "got_points": 39.32,
+    "got": "39.32",
     "got_total": 350.65,
     "accomodation": "Bystrec Chatka u Kuby",
     "trail_counter": "041",
     "exp_counter": "010",
     "lat": 48.0977,
     "lon": 24.5802,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

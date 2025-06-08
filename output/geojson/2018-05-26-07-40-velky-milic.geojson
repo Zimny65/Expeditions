@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1823",
+    "nr": "1823",
     "date": "2018-05-26",
     "name": "Velky Milic",
     "mountains": "Slanske Vrchy",
     "country": "HU, SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-26-07-40-velky-milic-25245074",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-05-26-07-40-velky-milic-25245074",
     "photo_album_url": "https://photos.app.goo.gl/WEUzwcMkVcak4WFA3",
     "photo_stamp_url": "https://drive.google.com/open?id=1Mg02N3xZnnYZl2Bs56tAxsmLQZ5ktxmF",
     "distance_km": 8.55,
     "ascent_m": 487,
     "duration_h": 2.92,
-    "got_points": 13.42,
+    "got": "13.42",
     "got_total": 378.75,
     "accomodation": "Trebišov Privát Trebišov",
     "trail_counter": "157",
     "exp_counter": "039",
     "lat": 48.5767,
     "lon": 21.4581,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

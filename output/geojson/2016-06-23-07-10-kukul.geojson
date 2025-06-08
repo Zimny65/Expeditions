@@ -1,7 +1,14 @@
 {
   "type": "Feature",
   "properties": {
+    "nr": "1611",
+    "date": "2016-06-23",
     "name": "Kukuł",
+    "mountains": "Czarnohora",
+    "country": "UA",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-06-23-07-10-kukul-17799617",
+    "photo_album_url": "https://photos.app.goo.gl/mxFUH0b7iiJzSAn92",
+    "photo_stamp_url": "https://drive.google.com/open?id=1WVY0B99ey_kNJ2MCg8t31VfgsTuXIh9L",
     "distance_km": 13.26,
     "ascent_m": 700,
     "duration_h": 5.43,
@@ -14,13 +21,6 @@
     "lon": 24.5458,
     "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "wikiloc_url": "https://photos.app.goo.gl/mxFUH0b7iiJzSAn92",
-    "photo_album_url": "https://drive.google.com/open?id=1WVY0B99ey_kNJ2MCg8t31VfgsTuXIh9L",
-    "photo_stamp_url": "13.26",
-    "country": "UA",
-    "mountains": "Czarnohora",
-    "date": "2016-06-23",
-    "trail_gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-06-23-07-10-kukul-17799617",
     "mapycz_gpx_url": ""
   },
   "geometry": {

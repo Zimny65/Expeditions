@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1837",
+    "nr": "1837",
     "date": "2018-08-31",
     "name": "Hasmasul Mare",
     "mountains": "Muntii Hasmas",
     "country": "RO",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-08-31-10-32-hasmasul-mare-28175371",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-08-31-10-32-hasmasul-mare-28175371",
     "photo_album_url": "https://photos.app.goo.gl/7wRqu87TKMbEvbzH9",
     "photo_stamp_url": "https://drive.google.com/open?id=1F4eumXph-MpUzgKvq-YwxZAdHWwhUS0B",
     "distance_km": 13.94,
     "ascent_m": 1000,
     "duration_h": 7.55,
-    "got_points": 23.94,
+    "got": "23.94",
     "got_total": 738.27,
     "accomodation": "Lăzarea Szárhegyi Pihenő",
     "trail_counter": "171",
     "exp_counter": "042",
     "lat": 46.7042,
     "lon": 25.8042,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM, DS, MS, BS, JS",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

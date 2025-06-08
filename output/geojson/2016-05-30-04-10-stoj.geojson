@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1606",
+    "nr": "1606",
     "date": "2016-05-30",
     "name": "Stoj",
     "mountains": "Połonina Borżawa",
     "country": "UA",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-05-30-04-10-stoj-17799561",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2016-05-30-04-10-stoj-17799561",
     "photo_album_url": "https://photos.app.goo.gl/eWewgXTGIAk18wVQ2",
     "photo_stamp_url": "https://drive.google.com/open?id=1aBcUUgsKJ0tVU2pJFtJ-VI75R5nbGj0y",
     "distance_km": 19.73,
     "ascent_m": 1127,
     "duration_h": 7.37,
-    "got_points": 31.0,
+    "got": "31.00",
     "got_total": 170.25,
     "accomodation": "Podobowiec Dersu Uzala",
     "trail_counter": "034",
     "exp_counter": "009",
     "lat": 48.6214,
     "lon": 23.191,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",

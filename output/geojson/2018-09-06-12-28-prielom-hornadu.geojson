@@ -1,27 +1,27 @@
 {
   "type": "Feature",
   "properties": {
-    "trail_nr": "1840",
+    "nr": "1840",
     "date": "2018-09-06",
     "name": "Prielom Hornadu",
     "mountains": "Slovensky Raj",
     "country": "SK",
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-09-06-12-28-prielom-hornadu-28407058",
+    "gpx_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2018-09-06-12-28-prielom-hornadu-28407058",
     "photo_album_url": "https://photos.app.goo.gl/9LJ1uZRUJ4ZkjPn96",
     "photo_stamp_url": "https://drive.google.com/open?id=1aYF5hurdkFqJy5Nye01ogaLDp_xi_pbb",
     "distance_km": 12.01,
     "ascent_m": 307,
     "duration_h": 4.8,
-    "got_points": 15.08,
+    "got": "15.08",
     "got_total": 818.96,
     "accomodation": "Pikovce Kamenný dom",
     "trail_counter": "174",
     "exp_counter": "042",
     "lat": 48.9529,
     "lon": 20.4229,
-    "only_mountain": true,
+    "only_mountain": "1",
     "participants": "AM, BM, KM, DS, MS, BS, JS",
-    "mapycz_gpx": ""
+    "mapycz_gpx_url": ""
   },
   "geometry": {
     "type": "LineString",
