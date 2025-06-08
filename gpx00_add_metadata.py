@@ -1,115 +1,113 @@
-import gpxpy
-import geojson
 import os
+import json
+import gpxpy
 import unicodedata
 import re
 from datetime import timedelta
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-# === USTAWIENIA ===
-GPX_FOLDER = "gpx"
-GEOJSON_FOLDER = "output/geojson"
+# Konfiguracja
 GOOGLE_SHEET_NAME = "AKT Mamut Expeditions"
 SHEET_TAB_NAME = "ALL"
+GPX_DIR = "gpx"
+OUTPUT_DIR = "output/geojson"
 
-# === FUNKCJE ===
+# Autoryzacja Google Sheets
+scope = [
+    "https://spreadsheets.google.com/feeds",
+    "https://www.googleapis.com/auth/drive"
+]
+creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
+client = gspread.authorize(creds)
+sheet = client.open(GOOGLE_SHEET_NAME).worksheet(SHEET_TAB_NAME)
+data = sheet.get_all_values()
+header = data[0]
+data_rows = data[1:]
 
-def normalize(text):
-    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode()
-    return re.sub(r'\s+', '-', text.lower())
+def normalize_name(name: str) -> str:
+    name = unicodedata.normalize("NFKD", name)
+    name = "".join(c for c in name if not unicodedata.combining(c))
+    name = name.lower()
+    name = name.replace(" ", "-").replace("--", "-")
+    name = re.sub(r"[^a-z0-9\-]", "", name)
+    return name
 
-def hhmm_to_hours(text):
-    h, m = map(int, text.strip().split(':'))
-    return round(h + m / 60.0, 2)
+def generate_geojson(gpx_filename: str, row: list):
+    gpx_path = os.path.join(GPX_DIR, gpx_filename)
+    output_path = os.path.join(OUTPUT_DIR, gpx_filename.replace(".gpx", ".geojson"))
 
-def match_gpx_to_row(gpx_filename, rows):
-    basename = os.path.basename(gpx_filename).lower()
-    
-    # Usuń rozszerzenie i podziel po myślnikach
-    name_parts = os.path.splitext(basename)[0].split("-")
-    
-    # Wyciągamy datę
-    if len(name_parts) < 5:
-        return None
-    date = "-".join(name_parts[0:3])  # YYYY-MM-DD
-    trail_part = "-".join(name_parts[5:])  # pomijamy godziny
-    
-    for row in rows:
-        sheet_date = row[1]  # kolumna B
-        sheet_trail = row[2]  # kolumna C
-        expected = normalize(f"{sheet_date}-{sheet_trail}")
-        actual = normalize(f"{date}-{trail_part}")
-        if expected == actual:
-            return row
-    return None
+    if os.path.exists(output_path):
+        return  # Pomijanie już przetworzonych plików
 
-def parse_gpx_file(gpx_path):
-    with open(gpx_path, 'r', encoding='utf-8') as f:
+    with open(gpx_path, "r", encoding="utf-8") as f:
         gpx = gpxpy.parse(f)
-    coords = []
-    for track in gpx.tracks:
-        for segment in track.segments:
-            for point in segment.points:
-                coords.append((point.longitude, point.latitude, point.elevation))
-    return coords
+
+    track = gpx.tracks[0]
+    segment = track.segments[0]
+
+    coords = [[point.longitude, point.latitude, point.elevation] for point in segment.points]
+
+    properties = {
+        "name": row[2],
+        "distance_km": float(row[8].replace(",", ".")) if row[8] else None,
+        "ascent_m": int(row[9]) if row[9] else None,
+        "duration_h": round(sum(
+            float(t.split(":"[0])) + float(t.split(":")[1]) / 60
+            for t in [row[10]] if ":" in t
+        ), 2) if row[10] else None,
+        "got": row[11],
+        "got_total": float(row[12].replace(",", ".")) if row[12] else None,
+        "accomodation": row[13],
+        "trail_counter": row[14],
+        "exp_counter": row[15],
+        "lat": float(row[16].replace(",", ".")) if row[16] else None,
+        "lon": float(row[17].replace(",", ".")) if row[17] else None,
+        "only_mountain": row[18],
+        "participants": row[19],
+        "wikiloc_url": row[6],
+        "photo_album_url": row[7],
+        "photo_stamp_url": row[8],
+        "country": row[4],
+        "mountains": row[3],
+        "date": row[1],
+        "trail_gpx_url": row[5],
+        "mapycz_gpx_url": row[20] if len(row) > 20 else ""
+    }
+
+    geojson = {
+        "type": "Feature",
+        "properties": properties,
+        "geometry": {
+            "type": "LineString",
+            "coordinates": coords
+        }
+    }
+
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(geojson, f, ensure_ascii=False, indent=2)
+    print(f"✅ Zapisano: {output_path}")
 
 def main():
-    print("Podaj nazwę pliku GPX (np. 2025-06-08-wielki-krivan.gpx):")
-    gpx_name = input("> ").strip()
-    gpx_path = os.path.join(GPX_FOLDER, gpx_name)
+    gpx_filename = input("Podaj nazwę pliku GPX (np. 2025-06-08-wielki-krivan.gpx):\n> ").strip()
 
-    if not os.path.exists(gpx_path):
-        print(f"❌ Plik nie istnieje: {gpx_path}")
+    found = None
+    base_name = normalize_name(gpx_filename.replace(".gpx", ""))
+
+    for row in data_rows:
+        date_str = row[1].strip()
+        name_str = normalize_name(row[2].strip())
+        expected = f"{date_str}-{name_str}"
+        if normalize_name(expected) == base_name:
+            found = row
+            break
+
+    if not found:
+        print(f"❌ Nie znaleziono dopasowania w arkuszu dla: {gpx_filename}")
         return
 
-    # === Autoryzacja Google Sheets ===
-    scope = ['https://spreadsheets.google.com/feeds',
-             'https://www.googleapis.com/auth/drive']
-    creds = ServiceAccountCredentials.from_json_keyfile_name('credentials.json', scope)
-    client = gspread.authorize(creds)
-    sheet = client.open(GOOGLE_SHEET_NAME).worksheet(SHEET_TAB_NAME)
-    rows = sheet.get_all_values()[1:]  # pomijamy nagłówek
-
-    # === Dopasowanie metadanych ===
-    row = match_gpx_to_row(gpx_name, rows)
-    if not row:
-        print("❌ Nie znaleziono dopasowania w arkuszu.")
-        return
-
-    trail_name = row[2]
-    distance_km = float(row[6].replace(",", "."))
-    ascent_m = int(float(row[7].replace(",", ".")))
-    duration_h = hhmm_to_hours(row[8])
-    wikiloc_url = row[5]
-
-    # === Parsowanie GPX ===
-    coords = parse_gpx_file(gpx_path)
-    if not coords:
-        print("❌ Brak punktów w GPX.")
-        return
-
-    geometry = geojson.LineString(coords)
-    feature = geojson.Feature(
-        geometry=geometry,
-        properties={
-            "name": trail_name,
-            "distance_km": distance_km,
-            "ascent_m": ascent_m,
-            "duration_h": duration_h,
-            "wikiloc_url": wikiloc_url
-        }
-    )
-
-    # === Zapis GeoJSON ===
-    os.makedirs(GEOJSON_FOLDER, exist_ok=True)
-    base = os.path.splitext(gpx_name)[0]
-    geojson_path = os.path.join(GEOJSON_FOLDER, f"{base}.geojson")
-
-    with open(geojson_path, 'w', encoding='utf-8') as f:
-        geojson.dump(feature, f, indent=2)
-
-    print(f"✅ Zapisano: {geojson_path}")
+    generate_geojson(gpx_filename, found)
 
 if __name__ == "__main__":
     main()

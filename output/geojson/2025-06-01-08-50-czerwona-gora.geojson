@@ -1,5 +1,28 @@
 {
   "type": "Feature",
+  "properties": {
+    "trail_nr": "2510",
+    "date": "2025-06-01",
+    "name": "Czerwona Góra",
+    "mountains": "Góry Świętokrzyskie",
+    "country": "PL",
+    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2025-06-01-08-50-czerwona-gora-216254605",
+    "photo_album_url": "",
+    "photo_stamp_url": "",
+    "distance_km": 17.5,
+    "ascent_m": 214,
+    "duration_h": 4.77,
+    "got_points": 19.64,
+    "got_total": 106.2,
+    "accomodation": "Dom Michałowice",
+    "trail_counter": "448",
+    "exp_counter": "137",
+    "lat": 51.0635,
+    "lon": 20.7519,
+    "only_mountain": true,
+    "participants": "AM, BM",
+    "mapycz_gpx": ""
+  },
   "geometry": {
     "type": "LineString",
     "coordinates": [
@@ -6929,12 +6952,5 @@
         268.928
       ]
     ]
-  },
-  "properties": {
-    "name": "Czerwona G\u00f3ra",
-    "distance_km": 17.5,
-    "ascent_m": 214,
-    "duration_h": 4.77,
-    "wikiloc_url": "https://pl.wikiloc.com/szlaki-wspinaczka-gorska/2025-06-01-08-50-czerwona-gora-216254605"
   }
 }
