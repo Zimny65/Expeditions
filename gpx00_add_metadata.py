@@ -25,11 +25,22 @@ def hhmm_to_hours(text):
 
 def match_gpx_to_row(gpx_filename, rows):
     basename = os.path.basename(gpx_filename).lower()
+    
+    # Usuń rozszerzenie i podziel po myślnikach
+    name_parts = os.path.splitext(basename)[0].split("-")
+    
+    # Wyciągamy datę
+    if len(name_parts) < 5:
+        return None
+    date = "-".join(name_parts[0:3])  # YYYY-MM-DD
+    trail_part = "-".join(name_parts[5:])  # pomijamy godziny
+    
     for row in rows:
-        date = row[1]  # kolumna B: Date
-        trail = row[2]  # kolumna C: Trail name
-        expected = normalize(f"{date}-{trail}")
-        if expected in basename:
+        sheet_date = row[1]  # kolumna B
+        sheet_trail = row[2]  # kolumna C
+        expected = normalize(f"{sheet_date}-{sheet_trail}")
+        actual = normalize(f"{date}-{trail_part}")
+        if expected == actual:
             return row
     return None
 
