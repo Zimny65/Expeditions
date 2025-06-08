@@ -3,8 +3,9 @@ import json
 import gpxpy
 import unicodedata
 import re
-from datetime import timedelta
+from datetime import datetime
 import gspread
+from tqdm import tqdm
 from oauth2client.service_account import ServiceAccountCredentials
 
 # Konfiguracja
@@ -29,7 +30,8 @@ def normalize_name(name: str) -> str:
     name = unicodedata.normalize("NFKD", name)
     name = "".join(c for c in name if not unicodedata.combining(c))
     name = name.lower()
-    name = name.replace(" ", "-").replace("--", "-")
+    name = name.replace("–", "-").replace("—", "-").replace(" ", "-")
+    name = re.sub(r"-+", "-", name)
     name = re.sub(r"[^a-z0-9\-]", "", name)
     return name
 
@@ -48,14 +50,19 @@ def generate_geojson(gpx_filename: str, row: list):
 
     coords = [[point.longitude, point.latitude, point.elevation] for point in segment.points]
 
+    duration_h = None
+    if row[10] and ":" in row[10]:
+        try:
+            h, m = row[10].split(":")
+            duration_h = round(float(h) + float(m) / 60, 2)
+        except Exception:
+            duration_h = None
+
     properties = {
         "name": row[2],
         "distance_km": float(row[8].replace(",", ".")) if row[8] else None,
         "ascent_m": int(row[9]) if row[9] else None,
-        "duration_h": round(
-            float(row[10].split(":")[0]) + float(row[10].split(":")[1]) / 60,
-            2
-        ) if row[10] and ":" in row[10] else None,
+        "duration_h": duration_h,
         "got": row[11],
         "got_total": float(row[12].replace(",", ".")) if row[12] else None,
         "accomodation": row[13],
@@ -89,34 +96,32 @@ def generate_geojson(gpx_filename: str, row: list):
         json.dump(geojson, f, ensure_ascii=False, indent=2)
     print(f"✅ Zapisano: {output_path}")
 
-def main():
-    print("🔧 Tryb ręczny uruchomiony")
-    gpx_filename = input("Podaj nazwę pliku GPX (np. 2025-06-08-wielki-krivan.gpx):\n> ").strip()
-    base_name = normalize_name(gpx_filename.replace(".gpx", ""))
+# Automatyczne przetwarzanie wsadowe
+sheet_map = {}
+for row in data_rows:
+    try:
+        date_str = row[1]
+        name = row[2]
+        dt = datetime.strptime(date_str, "%Y-%m-%d")
+        prefix = dt.strftime("%Y-%m-%d")
+        full_key = normalize_name(f"{prefix}-{name}")
+        sheet_map[full_key] = row
+    except Exception:
+        continue
 
-    # Wyciągamy datę i nazwę z pliku
-    parts = base_name.split("-")
-    if len(parts) < 4:
-        print("❌ Nieprawidłowa nazwa pliku GPX")
-        return
+# Lista plików GPX
+gpx_files = [f for f in os.listdir(GPX_DIR) if f.endswith(".gpx")]
+print(f"🔍 Znaleziono {len(gpx_files)} plików GPX")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    date_part = "-".join(parts[:3])  # YYYY-MM-DD
-    name_part = "-".join(parts[3:])  # Nazwa (może zawierać godzinę)
+for f in tqdm(gpx_files, desc="Przetwarzanie GPX", unit="plik"):
+    key = normalize_name(f.replace(".gpx", ""))
+    if key in sheet_map:
+        try:
+            generate_geojson(f, sheet_map[key])
+        except Exception as e:
+            print(f"❌ Błąd przy {f}: {e}")
+    else:
+        print(f"❌ Brak dopasowania w arkuszu: {f} (klucz: {key})")
 
-    found = None
-    for row in data_rows:
-        row_date = row[1].strip()
-        row_name = normalize_name(row[2].strip())
-        candidate = normalize_name(f"{row_date}-{row_name}")
-        if candidate == f"{date_part}-{name_part}" or candidate.startswith(date_part):
-            found = row
-            break
-
-    if not found:
-        print(f"❌ Nie znaleziono dopasowania w arkuszu dla: {gpx_filename}")
-        return
-
-    generate_geojson(gpx_filename, found)
-
-if __name__ == "__main__":
-    main()
+print("\n😊 Gotowe!")
