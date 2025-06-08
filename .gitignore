@@ -1,3 +1,5 @@
 .env
 gpx/
 credentials.json
+__pycache__/
+*.pyc
