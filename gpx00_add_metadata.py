@@ -29,7 +29,9 @@ def normalize_name(name: str) -> str:
     name = unicodedata.normalize("NFKD", name)
     name = "".join(c for c in name if not unicodedata.combining(c))
     name = name.lower()
-    name = name.replace(" ", "-").replace("--", "-")
+    name = name.strip()
+    name = name.replace(" ", "-")
+    name = re.sub(r"-+", "-", name)  # usunięcie wielu myślników
     name = re.sub(r"[^a-z0-9\-]", "", name)
     return name
 
@@ -90,24 +92,35 @@ def generate_geojson(gpx_filename: str, row: list):
     print(f"✅ Zapisano: {output_path}")
 
 def main():
-    gpx_filename = input("Podaj nazwę pliku GPX (np. 2025-06-08-wielki-krivan.gpx):\n> ").strip()
+    try:
+        gpx_filename = input("Podaj nazwę pliku GPX (np. 2025-06-08-wielki-krivan.gpx):\n> ").strip()
+    except EOFError:
+        print("❌ Błąd: input() nie zadziałał. Uruchom skrypt z terminala lub jako standalone.")
+        return
 
     found = None
-    base_name = normalize_name(gpx_filename.replace(".gpx", ""))
+
+    # Rozbij na datę i nazwę
+    parts = gpx_filename.replace(".gpx", "").split("-")
+    if len(parts) < 4:
+        print(f"❌ Niepoprawna nazwa pliku: {gpx_filename}")
+        return
+
+    date_str = "-".join(parts[:3])
+    trail_name = "-".join(parts[4:])  # pomijamy godzinę
+    normalized_input = normalize_name(f"{date_str}-{trail_name}")
 
     for row in data_rows:
-        date_str = row[1].strip()
-        name_str = normalize_name(row[2].strip())
-        expected = f"{date_str}-{name_str}"
-        if normalize_name(expected) == base_name:
+        row_date = row[1].strip()
+        row_name = row[2].strip()
+        normalized_sheet = normalize_name(f"{row_date}-{row_name}")
+        if normalized_input == normalized_sheet:
             found = row
             break
 
     if not found:
         print(f"❌ Nie znaleziono dopasowania w arkuszu dla: {gpx_filename}")
+        print(f"🔍 Szukałem: {normalized_input}")
         return
 
     generate_geojson(gpx_filename, found)
-
-if __name__ == "__main__":
-    main()
