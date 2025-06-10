@@ -12,7 +12,7 @@ SHEET_TAB_NAME = os.getenv("SHEET_TAB_NAME", "ALL")
 CREDENTIALS_FILE = os.getenv("GOOGLE_CREDENTIALS_FILE", "credentials.json")
 
 GPX_DIR = "gpx"
-OUTPUT_DIR = "output/geojson"
+OUTPUT_DIR = "geojson/trails"
 
 # Autoryzacja Google Sheets
 scope = [

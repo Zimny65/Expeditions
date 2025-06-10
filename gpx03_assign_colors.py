@@ -4,17 +4,40 @@ import matplotlib.pyplot as plt  # tylko do debugowania, niekonieczne
 import os
 
 # ⚖️ Parametry
-INPUT_PATH = "C:/github/Expeditions/output/simplified_trails.geojson"
-OUTPUT_PATH = "C:/github/Expeditions/output/colored.geojson"
+INPUT_PATH = "geojson/simplified_trails.geojson"
+OUTPUT_PATH = "geojson/expeditions.geojson"
 DISTANCE_THRESHOLD_METERS = 50  # odległość, poniżej której trasy uznajemy za sąsiadujące
 
 # 🌈 Lista 10 kolorów (kontrastowych)
 COLOR_PALETTE = [
+    "#800000",  # Maroon
     "#FF0000",  # Red
-    "#8B0000",  # DarkRed
-    "#FF4500",  # OrangeRed
-    "#800080"   # Purple
+    "#FFA500",  # Orange
+    "#FFFF00",  # Yellow
+    "#808000",  # Olive
+    "#800080",  # Purple
+    "#FF00FF",  # Fuchsia
+    "#FFFFFF",  # White
+    "#00FF00",  # Lime
+    "#008000"   # Green
 ]
+# COLOR_PALETTE = [
+#     "#1f77b4",  # blue
+#     "#ff7f0e",  # orange
+#     "#2ca02c",  # green
+#     "#d62728",  # red
+#     "#9467bd",  # purple
+#     "#8c564b",  # brown
+#     "#e377c2",  # pink
+#     "#7f7f7f",  # gray
+#     "#bcbd22",  # olive
+#     "#17becf",  # cyan
+#     "#f781bf",  # light pink
+#     "#999999",  # light gray
+#     "#66c2a5",  # teal
+#     "#fc8d62",  # coral
+#     "#e78ac3"   # violet
+# ]
 
 print("✅ Wczytywanie danych...")
 gdf = gpd.read_file(INPUT_PATH)

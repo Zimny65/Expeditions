@@ -4,8 +4,8 @@ from shapely.geometry import shape
 from tqdm import tqdm
 from pathlib import Path
 
-input_file = "output/all_trails.geojson"
-output_file = "output/simplified_trails.geojson"
+input_file = "geojson/all_trails.geojson"
+output_file = "geojson/simplified_trails.geojson"
 
 # Wczytaj dane wejściowe jako GeoJSON
 with open(input_file, "r", encoding="utf-8") as f:

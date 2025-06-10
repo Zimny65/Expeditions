@@ -3,8 +3,8 @@ import json
 from pathlib import Path
 from tqdm import tqdm
 
-INPUT_DIR = "output/geojson"
-OUTPUT_FILE = "output/all_trails.geojson"
+INPUT_DIR = "geojson/trails"
+OUTPUT_FILE = "geojson/all_trails.geojson"
 
 features = []
 
