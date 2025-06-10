@@ -2,6 +2,9 @@ geopandas
 pandas
 folium
 shapely
-requests
+gpxpy
+gspread
+oauth2client
 networkx
+tqdm
 python-dotenv
