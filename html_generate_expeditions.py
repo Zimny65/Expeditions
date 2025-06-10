@@ -127,10 +127,11 @@ def inject_custom_body_script(html_path):
 def main():
     gdf = load_geojson("output/colored.geojson")
     m = create_map_from_points(gdf)
-    m.save("EXPEDITIONS.html")
-    add_html_header("EXPEDITIONS.html")
-    inject_custom_body_script("EXPEDITIONS.html")
-    print("✅ Mapa zapisana jako EXPEDITIONS.html")
+    output_path = "C:/github/aktmamut.eu/maps/EXPEDITIONS.html"
+    m.save(output_path)
+    add_html_header(output_path)
+    inject_custom_body_script(output_path)
+    print(f"✅ Mapa zapisana jako {output_path}")
 
 if __name__ == "__main__":
     main()

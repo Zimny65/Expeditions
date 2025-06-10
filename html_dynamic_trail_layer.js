@@ -15,7 +15,7 @@ window.addEventListener("DOMContentLoaded", function () {
                         style: function(feature) {
                             return {
                                 color: feature.properties.color || 'gray',
-                                weight: 4,
+                                weight: 3,
                                 opacity: 1
                             };
                         },
@@ -39,7 +39,7 @@ window.addEventListener("DOMContentLoaded", function () {
                                     },
                                     mouseout: function () {
                                         layer.setStyle({
-                                            weight: 4,
+                                            weight: 3,
                                             color: feature.properties.color || 'gray'
                                         });
                                     }
