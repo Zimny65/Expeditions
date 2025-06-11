@@ -21,10 +21,15 @@ def create_map_from_points(gdf):
     lon_center = gdf["lon"].mean()
     m = folium.Map(location=[lat_center, lon_center], zoom_start=7, tiles="OpenStreetMap")
 
-    # Dodaj font Oswald
-    m.get_root().html.add_child(Element(
-        '<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">'
-    ))
+    # Dodaj font Oswald plus przesunięcie kontrolek
+    m.get_root().header.add_child(Element("""
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <style>
+    .leaflet-top.leaflet-left {
+        top: 70px !important;
+    }
+    </style>
+    """))
 
     for idx, row in gdf.iterrows():
         lat, lon = row["lat"], row["lon"]
@@ -76,27 +81,6 @@ def create_map_from_points(gdf):
 
     return m
 
-def add_html_header(filename):
-    with open(filename, 'r', encoding='utf-8') as f:
-        html_content = f.read()
-
-    if '<title>EXPEDITIONS</title>' in html_content:
-        print("Nagłówek już istnieje, pomijam.")
-        return
-
-    html_content = html_content.replace(
-        '<head>',
-        '''<head>
-    <title>EXPEDITIONS</title>
-    <link rel="icon" href="M32.png" type="image/png">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">'''
-    )
-
-    with open(filename, 'w', encoding='utf-8') as f:
-        f.write(html_content)
-
-    print(f"Dodano favicon i tytuł do: {filename}")
-
 def inject_custom_body_script(html_path):
     with open(html_path, 'r', encoding='utf-8') as f:
         html = f.read()
@@ -129,7 +113,6 @@ def main():
     m = create_map_from_points(gdf)
     output_path = "C:/github/aktmamut.eu/maps/EXPEDITIONS.html"
     m.save(output_path)
-    add_html_header(output_path)
     inject_custom_body_script(output_path)
     print(f"✅ Mapa zapisana jako {output_path}")
 
