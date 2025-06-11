@@ -21,13 +21,14 @@ def create_map_from_points(gdf):
     lat_center = gdf["lat"].mean()
     lon_center = gdf["lon"].mean()
     m = folium.Map(location=[lat_center, lon_center], zoom_start=7, tiles="OpenStreetMap")
-    Fullscreen().add_to(m)
-    
+        
     # Dołącz brakującą bibliotekę Leaflet.Fullscreen
     m.get_root().header.add_child(Element("""
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/2.4.0/Control.FullScreen.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/2.4.0/Control.FullScreen.min.js"></script>
     """))
+    
+    Fullscreen().add_to(m)
 
     # Dodaj font Oswald plus przesunięcie kontrolek
     m.get_root().header.add_child(Element("""
