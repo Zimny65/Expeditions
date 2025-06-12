@@ -2,6 +2,13 @@
 let allGpxLayer = null;
 
 window.addEventListener("DOMContentLoaded", function () {
+    const mapId = document.querySelector(".folium-map")?.getAttribute("id");
+    const map = window[mapId];
+    if (!map) {
+        console.warn("Nie znaleziono obiektu mapy Leaflet.");
+        return;
+    }
+
     function toggleAllGpxLayer() {
         const zoom = map.getZoom();
 
@@ -23,7 +30,7 @@ window.addEventListener("DOMContentLoaded", function () {
                             if (feature.geometry.type === "LineString") {
                                 const coords = feature.geometry.coordinates;
 
-                                if (feature.properties && feature.properties.name && feature.properties.trail_counter) {
+                                if (feature.properties?.name && feature.properties?.trail_counter) {
                                     layer.bindTooltip(
                                         `<div style="font-family: 'Oswald', sans-serif; font-size: 12px;">
                                             ${feature.properties.trail_counter} ${feature.properties.name}

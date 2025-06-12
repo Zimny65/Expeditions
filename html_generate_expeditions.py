@@ -2,9 +2,11 @@ from pathlib import Path
 import geopandas as gpd
 import folium
 from folium.features import DivIcon
-from folium.plugins import Fullscreen
 from folium import Element
 import re
+
+INPUT_GEOJSON = "geojson/expeditions.geojson"
+OUTPUT_EXPEDITION = "C:/github/aktmamut.eu/maps/EXPEDITIONS.html"
 
 def load_geojson(filepath: str) -> gpd.GeoDataFrame:
     path = Path(filepath)
@@ -22,28 +24,11 @@ def create_map_from_points(gdf):
     lon_center = gdf["lon"].mean()
     m = folium.Map(location=[lat_center, lon_center], zoom_start=7, tiles="OpenStreetMap")
         
-    # Dołącz brakującą bibliotekę Leaflet.Fullscreen
-    m.get_root().header.add_child(Element("""
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/2.4.0/Control.FullScreen.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/2.4.0/Control.FullScreen.min.js"></script>
-    """))
-    
-    Fullscreen().add_to(m)
-
-    # Dodaj font Oswald plus przesunięcie kontrolek
-    m.get_root().header.add_child(Element("""
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <style>
-    .leaflet-top.leaflet-left {
-        top: 70px !important;
-    }
-    </style>
-    """))
-
     for idx, row in gdf.iterrows():
         lat, lon = row["lat"], row["lon"]
         counter = row.get("trail_counter", f"{idx+1:03d}")
 
+        # Generowanie popup - dane z expeditions.geojson
         popup_html = f"""
         <div style="font-family: 'Oswald', sans-serif; font-size: 12px; color: black; background-color: white;">
             <table style="width: auto; border-collapse: collapse;">
@@ -63,6 +48,7 @@ def create_map_from_points(gdf):
         </div>
         """
 
+        # Generowanie zielonych kółeczek z numerami tras
         folium.Marker(
             location=[lat, lon],
             icon=DivIcon(
@@ -87,43 +73,14 @@ def create_map_from_points(gdf):
             ),
             popup=folium.Popup(popup_html, max_width=300)
         ).add_to(m)
-
+        
     return m
 
-def inject_custom_body_script(html_path):
-    with open(html_path, 'r', encoding='utf-8') as f:
-        html = f.read()
-
-    match = re.search(r'var (map_[a-f0-9]+) = L\.map\([^)]*\)', html)
-    if not match:
-        print("❌ Nie znaleziono zmiennej mapy w HTML.")
-        return
-
-    map_var_name = match.group(1)
-
-    # Dodaj osobną linię z aliasem po definicji mapy
-    insert_point = match.end()
-    html = html[:insert_point] + f"\nvar map = {map_var_name};" + html[insert_point:]
-
-    # Wczytaj szablon JS
-    with open('html_dynamic_trail_layer.js', 'r', encoding='utf-8') as js_file:
-        js_code = js_file.read().replace('{{MAP_VAR}}', map_var_name)
-
-    script_tag = f"<script>\n{js_code}\n</script>"
-    html = html.replace('</body>', script_tag + '\n</body>')
-
-    with open(html_path, 'w', encoding='utf-8') as f:
-        f.write(html)
-
-    print(f"✅ Dodano dynamiczny JS do {html_path}")
-
 def main():
-    gdf = load_geojson("output/colored.geojson")
+    gdf = load_geojson(INPUT_GEOJSON)
     m = create_map_from_points(gdf)
-    output_path = "C:/github/aktmamut.eu/maps/EXPEDITIONS.html"
-    m.save(output_path)
-    inject_custom_body_script(output_path)
-    print(f"✅ Mapa zapisana jako {output_path}")
+    m.save(OUTPUT_EXPEDITION)
+    print(f"✅ Mapa zapisana jako {OUTPUT_EXPEDITION}")
 
 if __name__ == "__main__":
     main()
