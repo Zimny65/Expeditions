@@ -76,10 +76,22 @@ def create_map_from_points(gdf):
         
     return m
 
+# 🖼️ Dodaj favicon i tytuł
+def add_html_header(filename):
+    with open(filename, 'r', encoding='utf-8') as f:
+        html_content = f.read()
+    html_content = html_content.replace(
+        '<head>',
+        f'<head>\n    <title>{"EXPEDITIONS"}</title>\n    <link rel="icon" href="M32.png" type="image/png">'
+    )
+    with open(filename, 'w', encoding='utf-8') as f:
+        f.write(html_content)
+
 def main():
     gdf = load_geojson(INPUT_GEOJSON)
     m = create_map_from_points(gdf)
     m.save(OUTPUT_EXPEDITION)
+    add_html_header(OUTPUT_EXPEDITION)
     print(f"✅ Mapa zapisana jako {OUTPUT_EXPEDITION}")
 
 if __name__ == "__main__":
