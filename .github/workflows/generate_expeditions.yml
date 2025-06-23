@@ -21,7 +21,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Write credentials.json from GitHub secret
-        run: echo "${{ secrets.GOOGLE_CREDENTIALS_JSON }}" > credentials.json
+        run: |
+          echo "$GOOGLE_CREDENTIALS_JSON" | python3 -c "import sys, json; json.dump(json.loads(sys.stdin.read()), open('credentials.json', 'w'))"
+        env:
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
 
       - name: Run geojson_generate_expeditions.py
         run: python geojson_generate_expeditions.py
