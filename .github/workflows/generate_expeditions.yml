@@ -1,6 +1,8 @@
-name: Generate Expeditions Map
+name: Generate Expeditions
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -8,9 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-      GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+      GOOGLE_CREDENTIALS_FILE: credentials.json
+      GOOGLE_SHEET_NAME: AKT Mamut Expeditions
+      SHEET_TAB_NAME: ALL
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Write credentials.json from secret
+        run: echo "${{ secrets.GOOGLE_CREDENTIALS_JSON }}" > credentials.json
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,3 +42,15 @@ jobs:
 
       - name: Run HTML generator
         run: python html_generate_expeditions.py
+
+      - name: Commit and push to aktmamut.eu
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@users.noreply.github.com"
+          cp expeditions.geojson ../aktmamut.eu/maps/
+          cp EXPEDITIONS.html ../aktmamut.eu/maps/
+          cd ../aktmamut.eu
+          git add maps/expeditions.geojson maps/EXPEDITIONS.html
+          git commit -m "Auto update expeditions map [skip ci]" || echo "No changes to commit"
+          git push
+          
