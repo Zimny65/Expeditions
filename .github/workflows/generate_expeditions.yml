@@ -6,28 +6,30 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env:
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+      GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
     steps:
-      - name: Checkout Expeditions repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
-      - name: Write credentials.json from GitHub secret
-        run: |
-          echo "$GOOGLE_CREDENTIALS_JSON" | python3 -c "import sys, json; json.dump(json.loads(sys.stdin.read()), open('credentials.json', 'w'))"
-        env:
-          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+      - name: Cache GPX folder
+        uses: actions/cache@v4
+        with:
+          path: gpx
+          key: gpx-cache-${{ hashFiles('**/*.py') }}
+          restore-keys: |
+            gpx-cache-
 
-      - name: Run geojson_generate_expeditions.py
+      - name: Run GeoJSON generator
         run: python geojson_generate_expeditions.py
 
-      - name: Run html_generate_expeditions.py
+      - name: Run HTML generator
         run: python html_generate_expeditions.py
